@@ -22,6 +22,8 @@ TC-TX-UI-01
     Location Should Contain    transfer
 
     Log To Console    Entering amount
+
+    Wait Until Element Is Visible    ${AMOUNT_FIELD}    timeout=10s
     Input Text    ${AMOUNT_FIELD}    250
 
     Log To Console    Selecting source account
