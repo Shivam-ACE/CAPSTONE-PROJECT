@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation     UI test suite for navigation flow
 Resource    ../../resources/keywords/common_keywords.robot
 Resource    ../../resources/pages/home_page.robot
 
@@ -10,11 +9,8 @@ Test Teardown     Close Application
 *** Test Cases ***
 TC-NAV-UI-01
     [Documentation]    Verify UI navigation flow
-    [Tags]    ui    regression
+    [Tags]    ui
 
-    Log To Console    Starting test case
-
-    Log To Console    Navigating to open new account
     Click Open New Account
     Sleep    1s
     Log To Console    Validating page URL contains 'openaccount'
@@ -25,5 +21,3 @@ TC-NAV-UI-01
     Sleep    1s
     Log To Console    Validating page URL contains 'transfer'
     Location Should Contain    transfer
-
-    Log To Console    Test completed

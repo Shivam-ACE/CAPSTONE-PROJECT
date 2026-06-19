@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation     UI test suite for creating checking account
 Resource    ../../resources/keywords/common_keywords.robot
 Resource    ../../resources/pages/home_page.robot
 Resource    ../../resources/pages/open_new_account_page.robot
@@ -11,16 +10,12 @@ Test Teardown     Close Application
 *** Test Cases ***
 TC-AC-UI-02
     [Documentation]    Verify creating checking account with default options
-    [Tags]    ui    regression
+    [Tags]    ui
 
-    Log To Console    Starting test case
-
-    Log To Console    Navigating to open new account
     Click Open New Account
     Sleep    1s
     Location Should Contain    openaccount
 
-    Log To Console    Selecting checking account
     Select Account Type    0
     Sleep    1s
 
@@ -29,7 +24,4 @@ TC-AC-UI-02
 
     Log To Console    Validating response
     Page Should Contain    Account Opened!
-    Log To Console    Validating response
     Page Should Contain    Your new account number
-
-    Log To Console    Test completed

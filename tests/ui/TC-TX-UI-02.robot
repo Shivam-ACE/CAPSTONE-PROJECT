@@ -1,5 +1,4 @@
 *** Settings ***
-Documentation     UI test suite for savings to checking transfer
 Resource    ../../resources/keywords/common_keywords.robot
 Resource    ../../resources/pages/home_page.robot
 Resource    ../../resources/pages/transfer_funds_page.robot
@@ -11,32 +10,28 @@ Test Teardown     Close Application
 
 *** Test Cases ***
 TC-TX-UI-02
-    [Documentation]    Verify savings to checking funds transfer
-    [Tags]    ui    regression
+    [Documentation]    Verify Zero amount funds transfer rejection
+    [Tags]    ui
 
-    Log To Console    Starting test case
-
-    Log To Console    Navigating to transfer funds
     Click Transfer Funds
     Sleep    1s
     Location Should Contain    transfer
 
-    Log To Console    Entering amount
-    Input Text    ${AMOUNT_FIELD}    50
+    Log To Console    Entering Zero amount
+    Wait Until Element Is Visible    ${AMOUNT_FIELD}    timeout=10s
+    Input Text    ${AMOUNT_FIELD}    0
 
     Log To Console    Selecting source account
-    Wait Until Page Contains Element    ${FROM_ACCOUNT_DROPDOWN}/option[@value="${UI_TO_ACCOUNT}"]    timeout=10s
-    Select From List By Value  ${FROM_ACCOUNT_DROPDOWN}   ${UI_TO_ACCOUNT}
+    Wait Until Page Contains Element    ${FROM_ACCOUNT_DROPDOWN}    timeout=10s
+    Select From List By Value  ${FROM_ACCOUNT_DROPDOWN}   ${ACCOUNT_ID}
 
     Log To Console    Selecting destination account
-    Wait Until Page Contains Element    ${TO_ACCOUNT_DROPDOWN}/option[@value="${UI_FROM_ACCOUNT}"]    timeout=10s
-    Select From List By Value  ${TO_ACCOUNT_DROPDOWN}   ${UI_FROM_ACCOUNT}
+    Wait Until Page Contains Element    ${TO_ACCOUNT_DROPDOWN}    timeout=10s
+    Select From List By Value  ${TO_ACCOUNT_DROPDOWN}   ${ACCOUNT_ID_2}
 
-    Log To Console    Transferring funds
+    Log To Console    Transferring funds with zero amount
     Click Transfer Button
     Sleep    2s
 
     Log To Console    Validating response
-    Page Should Contain    Transfer Complete!
-
-    Log To Console    Test completed
+    Page Should Not Contain    Transfer Complete!

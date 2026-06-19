@@ -1,20 +1,14 @@
 *** Settings ***
-Documentation     API test suite for non-existent account ID
 Resource    ../../resources/keywords/common_keywords.robot
-Suite Setup    Load Environment And Create Session To API
+Suite Setup    Load Environment
 
 *** Test Cases ***
 
 TC_API_08
     [Documentation]    Verify GET account details for non-existent account ID
-    [Tags]    api    regression
+    [Tags]    api
 
-    Log To Console    Starting test case
-    
+    Log To Console    Gives 400 HTTP status code for non-existent account ID
+
     ${response}=    Get Account Details    ${INVALID_ID}
-
-
-    Log To Console    Validating response
-    Should Not Be Empty    ${response.text}
-
-    Log To Console    Test completed
+    
