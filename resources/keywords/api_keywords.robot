@@ -73,3 +73,20 @@ Create Account
 
     ${params}=    Create Dictionary    customerId=${customerId}    newAccountType=0    fromAccountId=${accountId}
     ${response}=    POST On Session    parabank    /createAccount    params=${params}
+
+Validate Response Time
+    [Arguments]    ${response}    ${max_ms}=2000
+
+    ${response_time}=    Evaluate
+    ...    int($response.elapsed.total_seconds() * 1000)
+
+    Log To Console
+    ...    Response Time: ${response_time} ms
+
+    ${valid}=   Run Keyword And Return Status  Should Be True  ${response_time} < ${max_ms}
+
+    IF    ${valid}
+        Log    ${response_time}
+    ELSE
+        Fail
+    END
