@@ -1,0 +1,35 @@
+2026-06-20 02:34:06.706811 ==============================================================================
+2026-06-20 02:34:06.709254 Tests
+2026-06-20 02:34:06.709340 ==============================================================================
+2026-06-20 02:34:06.709390 Tests.E2E
+2026-06-20 02:34:06.712794 ==============================================================================
+2026-06-20 02:34:07.581550 Tests.E2E.TC-E2E-01
+2026-06-20 02:34:07.591782 ==============================================================================
+2026-06-20 02:34:07.591871 Loading environment
+2026-06-20 02:34:07.595301 Fetching active accounts
+2026-06-20 02:34:07.626131 Creating API session
+2026-06-20 02:34:07.627501 Getting customer accounts
+2026-06-20 02:34:08.080147 TC-E2E-01 :: Verify E2E account creation and API validation           Opening application
+2026-06-20 02:34:08.080147 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 02:34:08.122860   warnings.warn(
+2026-06-20 02:34:13.899782 Logging in
+2026-06-20 02:34:18.819759 Opening account
+2026-06-20 02:34:22.107762 Getting new account number
+2026-06-20 02:34:22.215348 Verifying account details
+2026-06-20 02:34:22.260316 Getting account details
+2026-06-20 02:34:22.508409 Checking response status
+2026-06-20 02:34:22.508409 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 02:34:22.555771 Closing browser
+2026-06-20 02:34:22.555771   warnings.warn(
+2026-06-20 02:34:24.956271 | PASS |
+2026-06-20 02:34:24.992270 ------------------------------------------------------------------------------
+2026-06-20 02:34:24.992704 Tests.E2E.TC-E2E-01                                                   | PASS |
+2026-06-20 02:34:25.001965 1 test, 1 passed, 0 failed
+2026-06-20 02:34:25.002019 ==============================================================================
+2026-06-20 02:34:25.002090 Tests.E2E                                                             | PASS |
+2026-06-20 02:34:25.003994 1 test, 1 passed, 0 failed
+2026-06-20 02:34:25.004149 ==============================================================================
+2026-06-20 02:34:25.004243 Tests                                                                 | PASS |
+2026-06-20 02:34:25.005417 1 test, 1 passed, 0 failed
+2026-06-20 02:34:25.005517 ==============================================================================
+2026-06-20 02:34:25.005583 Output:  I:\CAPSTONE\reports\pabot_results\11\output.xml

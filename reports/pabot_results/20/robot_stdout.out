@@ -1,0 +1,32 @@
+==============================================================================
+Tests
+==============================================================================
+Tests.Ui
+==============================================================================
+Tests.Ui.TC-TX-UI-02
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC-TX-UI-02 :: Verify Zero amount funds transfer rejection            Opening application
+Logging in
+Entering Zero amount
+Selecting source account
+Selecting destination account
+Transferring funds with zero amount
+Validating response
+Closing browser
+| FAIL |
+Page should not have contained text 'Transfer Complete!'.
+------------------------------------------------------------------------------
+Tests.Ui.TC-TX-UI-02                                                  | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests.Ui                                                              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\20\output.xml

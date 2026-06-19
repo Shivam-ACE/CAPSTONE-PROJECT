@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-06-20T02:34:26.345911" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="I:\CAPSTONE\tests">
+<suite id="s1-s1" name="Ui" source="I:\CAPSTONE\tests\ui">
+<suite id="s1-s1-s1" name="TC-AC-UI-03" source="I:\CAPSTONE\tests\ui\TC-AC-UI-03.robot">
+<kw name="Load Environment" owner="common_keywords" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Loading environment</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.396078" elapsed="0.000816"/>
+</kw>
+<kw name="Load Env" owner="environment">
+<arg>${ENV}</arg>
+<status status="PASS" start="2026-06-20T02:34:27.397649" elapsed="0.004143"/>
+</kw>
+<kw name="Get Env" owner="environment">
+<msg time="2026-06-20T02:34:27.403642" level="INFO">${url} = https://parabank.parasoft.com</msg>
+<var>${url}</var>
+<arg>baseurl</arg>
+<status status="PASS" start="2026-06-20T02:34:27.403016" elapsed="0.000795"/>
+</kw>
+<kw name="Get Env" owner="environment">
+<msg time="2026-06-20T02:34:27.406283" level="INFO">${username} = john</msg>
+<var>${username}</var>
+<arg>user_id</arg>
+<status status="PASS" start="2026-06-20T02:34:27.405741" elapsed="0.000679"/>
+</kw>
+<kw name="Get Env" owner="environment">
+<msg time="2026-06-20T02:34:27.408528" level="INFO">${password} = demo</msg>
+<var>${password}</var>
+<arg>user_password</arg>
+<status status="PASS" start="2026-06-20T02:34:27.408118" elapsed="0.000483"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.412894" level="INFO">${BASE_URL} = https://parabank.parasoft.com</msg>
+<arg>${BASE_URL}</arg>
+<arg>${url}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.409999" elapsed="0.003059"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.415522" level="INFO">${USERNAME} = john</msg>
+<arg>${USERNAME}</arg>
+<arg>${username}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.414505" elapsed="0.001162"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.418200" level="INFO">${PASSWORD} = demo</msg>
+<arg>${PASSWORD}</arg>
+<arg>${password}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.417028" elapsed="0.001353"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Fetching active accounts</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.419971" elapsed="0.000852"/>
+</kw>
+<kw name="Create Session To API" owner="api_keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Creating API session</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.421943" elapsed="0.000661"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.423880" level="INFO">${headers} = {'Accept': 'application/json'}</msg>
+<var>${headers}</var>
+<arg>Accept=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.423048" elapsed="0.000900"/>
+</kw>
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2026-06-20T02:34:27.426250" level="INFO">Creating Session using : alias=parabank, url=https://parabank.parasoft.com/parabank/services/bank, headers={'Accept': 'application/json'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>parabank</arg>
+<arg>${API_BASE_URL}</arg>
+<arg>headers=${headers}</arg>
+<arg>verify=False</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2026-06-20T02:34:27.425353" elapsed="0.001447"/>
+</kw>
+<doc>Creates an HTTP session for ParaBank API</doc>
+<status status="PASS" start="2026-06-20T02:34:27.421532" elapsed="0.006829"/>
+</kw>
+<kw name="Get Customer Accounts" owner="api_keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Getting customer accounts</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.429911" elapsed="0.000574"/>
+</kw>
+<kw name="GET On Session" owner="RequestsLibrary">
+<msg time="2026-06-20T02:34:27.840211" level="INFO">GET Request : url=https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts 
+ path_url=/parabank/services/bank/customers/12212/accounts 
+ headers={'User-Agent': 'python-requests/2.34.2', 'Accept-Encoding': 'gzip, deflate, zstd', 'Accept': 'application/json', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg time="2026-06-20T02:34:27.840674" level="INFO">GET Response : url=https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts 
+ status=200, reason=OK 
+ headers={'Date': 'Fri, 19 Jun 2026 21:04:27 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'cf-cache-status': 'DYNAMIC', 'X-Content-Type-Options': 'nosniff', 'Content-Encoding': 'gzip', 'CF-RAY': 'a0e57c790b585981-DEL'} 
+ body=[{"id":12345,"customerId":12212,"type":"CHECKING","balance":-2500.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":1000279.45},{"id":12567,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":-100.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1100.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999137.90},{"id":14565,"customerId":12212,"type":"SAVINGS","balance":100.00},{"id":14676,"customerId":12212,"type":"SAVINGS","balance":100.00},{"id":14787,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}] 
+ </msg>
+<msg time="2026-06-20T02:34:27.840924" level="INFO">I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2026-06-20T02:34:27.841309" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>parabank</arg>
+<arg>/customers/${customerId}/accounts</arg>
+<doc>Sends a GET request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.430992" elapsed="0.410439"/>
+</kw>
+<return>
+<value>${response}</value>
+<status status="PASS" start="2026-06-20T02:34:27.843126" elapsed="0.000208"/>
+</return>
+<msg time="2026-06-20T02:34:27.843811" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>${CUSTOMER_ID}</arg>
+<doc>Gets a list of accounts for a customer ID</doc>
+<status status="PASS" start="2026-06-20T02:34:27.429264" elapsed="0.414607"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.846470" level="INFO">${accounts} = [{'id': 12345, 'customerId': 12212, 'type': 'CHECKING', 'balance': -2500.0}, {'id': 12456, 'customerId': 12212, 'type': 'CHECKING', 'balance': 1000279.45}, {'id': 12567, 'customerId': 12212, 'type': '...</msg>
+<var>${accounts}</var>
+<arg>${response.json()}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.845022" elapsed="0.001533"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.849451" level="INFO">Length is 14.</msg>
+<msg time="2026-06-20T02:34:27.849715" level="INFO">${length} = 14</msg>
+<var>${length}</var>
+<arg>${accounts}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.847844" elapsed="0.002018"/>
+</kw>
+<if>
+<branch type="IF" condition="${length} &lt; 2">
+<kw name="Create Account" owner="api_keywords">
+<arg>${CUSTOMER_ID}</arg>
+<arg>0</arg>
+<arg>${ACCOUNT_ID}</arg>
+<doc>Creates a new account for the customer via API</doc>
+<status status="NOT RUN" start="2026-06-20T02:34:27.851891" elapsed="0.000127"/>
+</kw>
+<kw name="Get Customer Accounts" owner="api_keywords">
+<var>${response}</var>
+<arg>${CUSTOMER_ID}</arg>
+<doc>Gets a list of accounts for a customer ID</doc>
+<status status="NOT RUN" start="2026-06-20T02:34:27.852499" elapsed="0.000110"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<var>${accounts}</var>
+<arg>${response.json()}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" start="2026-06-20T02:34:27.852996" elapsed="0.000091"/>
+</kw>
+<status status="NOT RUN" start="2026-06-20T02:34:27.851289" elapsed="0.002012"/>
+</branch>
+<status status="PASS" start="2026-06-20T02:34:27.851216" elapsed="0.002309"/>
+</if>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.854995" level="INFO">${acc2} = 12456</msg>
+<var>${acc2}</var>
+<arg>${accounts[1]['id']}</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.853690" elapsed="0.001374"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.857244" level="INFO">${acc2_str} = 12456</msg>
+<var>${acc2_str}</var>
+<arg>${acc2}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.856304" elapsed="0.001049"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-06-20T02:34:27.859753" level="INFO">${ACCOUNT_ID_2} = 12456</msg>
+<arg>${ACCOUNT_ID_2}</arg>
+<arg>${acc2_str}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.858744" elapsed="0.001227"/>
+</kw>
+<doc>Loads target environment and fetch active account IDs</doc>
+<status status="PASS" start="2026-06-20T02:34:27.394692" elapsed="0.466635"/>
+</kw>
+<test id="s1-s1-s1-t1" name="TC-AC-UI-03" line="11">
+<kw name="Open Application And Login" owner="common_keywords" type="SETUP">
+<kw name="Open Application" owner="common_keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Opening application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.863763" elapsed="0.000507"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:27.865956" level="INFO">Opening browser 'chrome' to base url 'https://parabank.parasoft.com'.</msg>
+<arg>${BASE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-06-20T02:34:27.864907" elapsed="3.204434"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-06-20T02:34:31.071235" elapsed="0.116342"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:33.211468" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:31.188597" elapsed="2.023157"/>
+</kw>
+<doc>Opens browser and navigate to application page</doc>
+<status status="PASS" start="2026-06-20T02:34:27.863327" elapsed="5.352783"/>
+</kw>
+<kw name="Login" owner="common_keywords">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Logging in</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:33.218598" elapsed="0.000975"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:33.221585" level="INFO">Typing text 'john' into text field 'xpath=//div[@class="login"]//input[@type="text"]'.</msg>
+<arg>${USERNAME_FIELD}</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T02:34:33.220296" elapsed="0.282501"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:33.506318" level="INFO">Typing text 'demo' into text field 'xpath=//div[@class="login"]//input[@type="password"]'.</msg>
+<arg>${PASSWORD_FIELD}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T02:34:33.505038" elapsed="0.155427"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:33.663351" level="INFO">Clicking element 'xpath=//div[@class="login"]//input[@type="submit"]'.</msg>
+<arg>${LOGIN_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T02:34:33.662476" elapsed="0.972384"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:36.638214" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:34.637063" elapsed="2.001437"/>
+</kw>
+<doc>Logs in user</doc>
+<status status="PASS" start="2026-06-20T02:34:33.217376" elapsed="3.424783"/>
+</kw>
+<doc>Opens application and logs in</doc>
+<status status="PASS" start="2026-06-20T02:34:27.862805" elapsed="8.780042"/>
+</kw>
+<kw name="Click Open New Account" owner="home_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:36.645782" level="INFO">Clicking element 'xpath=//a[contains(text(),'Open New Account')]'.</msg>
+<arg>${OPEN_NEW_ACCOUNT_URL}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T02:34:36.644736" elapsed="0.574374"/>
+</kw>
+<doc>Clicks the open new account link</doc>
+<status status="PASS" start="2026-06-20T02:34:36.643899" elapsed="0.576904"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:38.222511" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:37.221259" elapsed="1.001476"/>
+</kw>
+<kw name="Location Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:38.232794" level="INFO">Current location contains 'openaccount'.</msg>
+<arg>openaccount</arg>
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<status status="PASS" start="2026-06-20T02:34:38.224535" elapsed="0.008387"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Opening account</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:38.234369" elapsed="0.000658"/>
+</kw>
+<kw name="Select Account Type" owner="open_new_account_page">
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:38.236633" level="INFO">Selecting options from selection list 'xpath=//select[@id="type"]' by value 0.</msg>
+<arg>${ACCOUNT_TYPE_DROPDOWN}</arg>
+<arg>${account_type}</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2026-06-20T02:34:38.236153" elapsed="0.090146"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:39.328912" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:38.327878" elapsed="1.001271"/>
+</kw>
+<arg>0</arg>
+<doc>Selects account type (0 for Checking, 1 for Savings)</doc>
+<status status="PASS" start="2026-06-20T02:34:38.235614" elapsed="1.095246"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:40.332526" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:39.331459" elapsed="1.001302"/>
+</kw>
+<kw name="Click Open Account Button" owner="open_new_account_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:40.336758" level="INFO">Clicking element 'xpath=//input[@value="Open New Account"]'.</msg>
+<arg>${OPEN_ACCOUNT_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T02:34:40.335872" elapsed="0.235820"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:42.576046" level="INFO">Slept 2 seconds.</msg>
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:40.574080" elapsed="2.002237"/>
+</kw>
+<doc>Clicks the open account button</doc>
+<status status="PASS" start="2026-06-20T02:34:40.334867" elapsed="2.243331"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Validating response</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:42.578892" elapsed="0.003137"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:42.610199" level="INFO">Current page contains text 'Account Opened!'.</msg>
+<arg>Account Opened!</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-06-20T02:34:42.582819" elapsed="0.027651"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:42.642265" level="INFO">Current page contains text 'Your new account number'.</msg>
+<arg>Your new account number</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-06-20T02:34:42.612234" elapsed="0.030309"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Clicking new account link</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:42.644313" elapsed="0.000951"/>
+</kw>
+<kw name="Click Account Details Link" owner="open_new_account_page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:42.647724" level="INFO">Clicking element 'xpath=//a[@id="newAccountId"]'.</msg>
+<arg>${ACCOUNT_DETAILS_LINK}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-06-20T02:34:42.646941" elapsed="0.480447"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:44.130352" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:43.129062" elapsed="1.001580"/>
+</kw>
+<doc>Clicks the account details link on success page</doc>
+<status status="PASS" start="2026-06-20T02:34:42.646108" elapsed="1.486007"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-06-20T02:34:45.133737" level="INFO">Slept 1 second.</msg>
+<arg>1s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-06-20T02:34:44.132804" elapsed="1.001240"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Validating response</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:45.135792" elapsed="0.000916"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:45.162728" level="INFO">Current page contains text 'Account Details'.</msg>
+<arg>Account Details</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-06-20T02:34:45.137493" elapsed="0.025436"/>
+</kw>
+<kw name="Location Should Contain" owner="SeleniumLibrary">
+<msg time="2026-06-20T02:34:45.172343" level="INFO">Current location contains 'activity.htm?id='.</msg>
+<arg>activity.htm?id=</arg>
+<doc>Verifies that the current URL contains ``expected``.</doc>
+<status status="PASS" start="2026-06-20T02:34:45.164457" elapsed="0.008116"/>
+</kw>
+<kw name="Close Application" owner="common_keywords" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Closing browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-06-20T02:34:45.175415" elapsed="0.000726"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" start="2026-06-20T02:34:45.176715" elapsed="2.428580"/>
+</kw>
+<doc>Closes the browser</doc>
+<status status="PASS" start="2026-06-20T02:34:45.174579" elapsed="2.431735"/>
+</kw>
+<doc>Verify navigation to account details page</doc>
+<tag>ui</tag>
+<status status="PASS" start="2026-06-20T02:34:27.861718" elapsed="19.745036"/>
+</test>
+<status status="PASS" start="2026-06-20T02:34:26.570588" elapsed="21.041087"/>
+</suite>
+<status status="PASS" start="2026-06-20T02:34:26.567740" elapsed="21.051964"/>
+</suite>
+<status status="PASS" start="2026-06-20T02:34:26.513478" elapsed="21.107620"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">ui</stat>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="Ui" id="s1-s1" pass="1" fail="0" skip="0">Tests.Ui</stat>
+<stat name="TC-AC-UI-03" id="s1-s1-s1" pass="1" fail="0" skip="0">Tests.Ui.TC-AC-UI-03</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

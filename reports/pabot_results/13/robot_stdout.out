@@ -1,0 +1,27 @@
+==============================================================================
+Tests
+==============================================================================
+Tests.Performance
+==============================================================================
+Tests.Performance.API response time
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC-PERF-01 API Response Time Under 2 Seconds                          Getting customer accounts
+[{'id': 12345, 'customerId': 12212, 'type': 'CHECKING', 'balance': -2300.0}, {'id': 12456, 'customerId': 12212, 'type': 'CHECKING', 'balance': 1000159.45}, {'id': 12567, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 12678, 'customerId': 12212, 'type': 'SAVINGS', 'balance': -100.0}, {'id': 12789, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 12900, 'customerId': 12212, 'type': 'CHECKING', 'balance': 0.0}, {'id': 13011, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 13122, 'customerId': 12212, 'type': 'CHECKING', 'balance': 1100.0}, {'id': 13233, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 13344, 'customerId': 12212, 'type': 'SAVINGS', 'balance': -998917.9}, {'id': 54321, 'customerId': 12212, 'type': 'CHECKING', 'balance': 1351.12}]
+Checking response status
+Response Time: 291 ms
+| PASS |
+------------------------------------------------------------------------------
+Tests.Performance.API response time                                   | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests.Performance                                                     | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\13\output.xml

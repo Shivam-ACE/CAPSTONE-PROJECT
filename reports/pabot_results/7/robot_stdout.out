@@ -1,0 +1,26 @@
+==============================================================================
+Tests
+==============================================================================
+Tests.Api
+==============================================================================
+Tests.Api.TC-API-08
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC_API_08 :: Verify GET account details for non-existent account ID   Gives 400 HTTP status code for non-existent account ID
+Getting account details
+| FAIL |
+HTTPError: 400 Client Error: Bad Request for url: https://parabank.parasoft.com/parabank/services/bank/accounts/99999
+------------------------------------------------------------------------------
+Tests.Api.TC-API-08                                                   | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests.Api                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\7\output.xml

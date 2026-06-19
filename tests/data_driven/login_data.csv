@@ -1,0 +1,6 @@
+*** Test Cases ***,${Firstname},${Lastname},${Address},${City},${State},${Zipcode},${Phno},${SSN},${Username},${Password},${Confirm}
+Register johndoe,John,Doe,"123 Main Street",New York,NY,10001,9876543210,123456,johndoe,Pass@123,Pass@123
+Register emmasmith,Emma,Smith,"456 Oak Avenue",Chicago,IL,60601,9876543211,567890,emmasmith,Pass@124,Pass@124
+Register mjohnson,Michael,Johnson,"789 Pine Road",Dallas,TX,75201,9876543212,678901,mjohnson,Pass@125,Pass@125
+Register sophiaw,Sophia,Williams,"321 Maple Drive",Seattle,WA,98101,9876543213,789012,sophiaw,Pass@126,Pass@126
+Register davidb,David,Brown,"654 Cedar Lane",Miami,FL,33101,9876543214,890123,davidb,Pass@127,Pass@127

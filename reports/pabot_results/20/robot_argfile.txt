@@ -1,0 +1,17 @@
+--suite Tests.Ui.TC-TX-UI-02
+--variable CALLER_ID:12f7fedcd5d6454cb1e741449084a704
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:5
+--variable PABOTQUEUEINDEX:20
+--variable PABOTLASTLEVEL:Tests.Ui.TC-TX-UI-02
+--outputdir reports\pabot_results\20
+--listener allure_robotframework
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+.\tests\

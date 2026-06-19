@@ -1,0 +1,32 @@
+2026-06-20 02:34:45.890968 ==============================================================================
+2026-06-20 02:34:45.914797 Tests
+2026-06-20 02:34:45.914866 ==============================================================================
+2026-06-20 02:34:45.914911 Tests.Ui
+2026-06-20 02:34:45.917490 ==============================================================================
+2026-06-20 02:34:46.891366 Tests.Ui.TC-TX-UI-03
+2026-06-20 02:34:46.914164 ==============================================================================
+2026-06-20 02:34:46.914244 Loading environment
+2026-06-20 02:34:46.918303 Fetching active accounts
+2026-06-20 02:34:46.938649 Creating API session
+2026-06-20 02:34:46.940538 Getting customer accounts
+2026-06-20 02:34:47.343564 TC-TX-UI-03 :: Verify blank amount funds transfer rejection           Opening application
+2026-06-20 02:34:47.343564 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 02:34:47.374356   warnings.warn(
+2026-06-20 02:34:52.239825 Logging in
+2026-06-20 02:34:57.210091 Selecting source account
+2026-06-20 02:34:57.351147 Selecting destination account
+2026-06-20 02:34:57.506683 Transferring funds with blank amount
+2026-06-20 02:35:01.691160 Validating response
+2026-06-20 02:35:01.699630 Closing browser
+2026-06-20 02:35:04.068386 | PASS |
+2026-06-20 02:35:04.108187 ------------------------------------------------------------------------------
+2026-06-20 02:35:04.121542 Tests.Ui.TC-TX-UI-03                                                  | PASS |
+2026-06-20 02:35:04.121671 1 test, 1 passed, 0 failed
+2026-06-20 02:35:04.121726 ==============================================================================
+2026-06-20 02:35:04.121773 Tests.Ui                                                              | PASS |
+2026-06-20 02:35:04.121814 1 test, 1 passed, 0 failed
+2026-06-20 02:35:04.121901 ==============================================================================
+2026-06-20 02:35:04.121949 Tests                                                                 | PASS |
+2026-06-20 02:35:04.123149 1 test, 1 passed, 0 failed
+2026-06-20 02:35:04.123249 ==============================================================================
+2026-06-20 02:35:04.123291 Output:  I:\CAPSTONE\reports\pabot_results\21\output.xml

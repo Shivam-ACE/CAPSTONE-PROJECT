@@ -1,0 +1,17 @@
+--suite Tests.Data Driven.Data Driven Csv
+--variable CALLER_ID:1f381ded792a4a23b4a6f534b3c2ca0b
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:5
+--variable PABOTQUEUEINDEX:10
+--variable PABOTLASTLEVEL:Tests.Data Driven
+--outputdir reports\pabot_results\10
+--listener allure_robotframework
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+.\tests\

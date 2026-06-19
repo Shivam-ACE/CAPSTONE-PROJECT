@@ -1,0 +1,30 @@
+2026-06-20 02:34:02.975766 ==============================================================================
+2026-06-20 02:34:03.009149 Tests
+2026-06-20 02:34:03.009287 ==============================================================================
+2026-06-20 02:34:03.009345 Tests.Api
+2026-06-20 02:34:03.011944 ==============================================================================
+2026-06-20 02:34:03.820078 Tests.Api.TC-API-08
+2026-06-20 02:34:03.847643 ==============================================================================
+2026-06-20 02:34:03.847734 Loading environment
+2026-06-20 02:34:03.851673 Fetching active accounts
+2026-06-20 02:34:03.872758 Creating API session
+2026-06-20 02:34:03.874891 Getting customer accounts
+2026-06-20 02:34:04.501354 TC_API_08 :: Verify GET account details for non-existent account ID   Gives 400 HTTP status code for non-existent account ID
+2026-06-20 02:34:04.501354 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 02:34:04.583496 Getting account details
+2026-06-20 02:34:04.583496   warnings.warn(
+2026-06-20 02:34:05.015559 | FAIL |
+2026-06-20 02:34:05.015559 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 02:34:05.103613 HTTPError: 400 Client Error: Bad Request for url: https://parabank.parasoft.com/parabank/services/bank/accounts/99999
+2026-06-20 02:34:05.103613   warnings.warn(
+2026-06-20 02:34:05.111035 ------------------------------------------------------------------------------
+2026-06-20 02:34:05.111090 Tests.Api.TC-API-08                                                   | FAIL |
+2026-06-20 02:34:05.111123 1 test, 0 passed, 1 failed
+2026-06-20 02:34:05.111153 ==============================================================================
+2026-06-20 02:34:05.111183 Tests.Api                                                             | FAIL |
+2026-06-20 02:34:05.111211 1 test, 0 passed, 1 failed
+2026-06-20 02:34:05.111239 ==============================================================================
+2026-06-20 02:34:05.111266 Tests                                                                 | FAIL |
+2026-06-20 02:34:05.111293 1 test, 0 passed, 1 failed
+2026-06-20 02:34:05.111319 ==============================================================================
+2026-06-20 02:34:05.111345 Output:  I:\CAPSTONE\reports\pabot_results\7\output.xml

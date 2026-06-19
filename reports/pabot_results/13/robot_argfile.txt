@@ -1,0 +1,17 @@
+--suite Tests.Performance.API response time
+--variable CALLER_ID:de5bb97020ae418086e12d26a7190c06
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:3
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:5
+--variable PABOTQUEUEINDEX:13
+--variable PABOTLASTLEVEL:Tests.Performance
+--outputdir reports\pabot_results\13
+--listener allure_robotframework
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+.\tests\

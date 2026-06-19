@@ -1,0 +1,26 @@
+==============================================================================
+Tests
+==============================================================================
+Tests.Api
+==============================================================================
+Tests.Api.TC-API-09
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC_API_09 :: Verify fund transfer fails for excessive balance amount  Transferring funds via API
+Validating response
+| FAIL |
+200 == 200
+------------------------------------------------------------------------------
+Tests.Api.TC-API-09                                                   | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests.Api                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\8\output.xml

@@ -1,0 +1,26 @@
+==============================================================================
+Tests
+==============================================================================
+Tests.Api
+==============================================================================
+Tests.Api.TC-API-01
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC_API_01 :: Verify GET customer accounts list                        Getting customer accounts
+Checking response status
+[{'id': 12345, 'customerId': 12212, 'type': 'CHECKING', 'balance': -2300.0}, {'id': 12456, 'customerId': 12212, 'type': 'CHECKING', 'balance': 160.45}, {'id': 12567, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 12678, 'customerId': 12212, 'type': 'SAVINGS', 'balance': -100.0}, {'id': 12789, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 12900, 'customerId': 12212, 'type': 'CHECKING', 'balance': 0.0}, {'id': 13011, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 13122, 'customerId': 12212, 'type': 'CHECKING', 'balance': 1100.0}, {'id': 13233, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}, {'id': 13344, 'customerId': 12212, 'type': 'SAVINGS', 'balance': 1081.1}, {'id': 54321, 'customerId': 12212, 'type': 'CHECKING', 'balance': 1351.12}]
+| PASS |
+------------------------------------------------------------------------------
+Tests.Api.TC-API-01                                                   | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests.Api                                                             | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\0\output.xml

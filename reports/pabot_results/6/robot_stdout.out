@@ -1,0 +1,26 @@
+==============================================================================
+Tests
+==============================================================================
+Tests.Api
+==============================================================================
+Tests.Api.TC-API-07
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC_API_07 :: Verify source account transaction history                Getting account transactions
+Checking response status
+Validating response
+| PASS |
+------------------------------------------------------------------------------
+Tests.Api.TC-API-07                                                   | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests.Api                                                             | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Tests                                                                 | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\6\output.xml
