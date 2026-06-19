@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Library    DataDriver   file=${EXECDIR}/tests/data_driven/login_data.csv  dialect=excel
+Library    DataDriver   file=${CURDIR}/login_data.csv  dialect=excel
 
 Test Setup    Navigate To Parabank Register Page
 #Test Setup  CLick Register After Navigating
