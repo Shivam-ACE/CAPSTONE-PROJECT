@@ -11,4 +11,3 @@ TC_API_08
     Log To Console    Gives 400 HTTP status code for non-existent account ID
 
     ${response}=    Get Account Details    ${INVALID_ID}
-    

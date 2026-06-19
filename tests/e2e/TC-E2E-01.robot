@@ -1,22 +1,18 @@
 *** Settings ***
-Documentation     End-to-end test suite for account provisioning
 Resource    ../../resources/keywords/common_keywords.robot
 Resource    ../../resources/keywords/api_keywords.robot
 Resource    ../../resources/pages/open_new_account_page.robot
 Resource    ../../resources/pages/home_page.robot
 
-Suite Setup    Load Environment And Create Session To API
+Suite Setup    Load Environment
 Test Setup       Open Application And Login
 Test Teardown    Close Application
 
 *** Test Cases ***
 TC-E2E-01
     [Documentation]    Verify E2E account creation and API validation
-    [Tags]    e2e    regression
+    [Tags]    e2e
 
-    Log To Console    Starting test case
-
-    Log To Console    Navigating to open new account
     Click Open New Account
     Sleep    1s
 
@@ -27,22 +23,10 @@ TC-E2E-01
     Log To Console    Getting new account number
     ${account_id}=    Get New Account Number
 
-    Log To Console    Checking account details
+    Log To Console    Verifying account details
+
     ${response}=    Get Account Details    ${account_id}
 
-
-    Log To Console    Validating response
     Verify Response Code    ${response}    200
-
-    Log To Console    Validating response
     Should Contain    ${response.text}    ${account_id}
-
-    Log To Console    Checking account type
-    ${response}=    Get Account Details    ${account_id}
-
-    Verify Response Code    ${response}    200
-
-    Log To Console    Validating response
     Should Contain    ${response.text}    SAVINGS
-
-    Log To Console    Test completed
