@@ -13,3 +13,4 @@ allure-robotframework>=2.13.5
 robotframework-metrics>=3.7.0
 pyyaml>=6.0.1
 numpy>=1.26.0
+robotframework-datadriver>=1.5.0
