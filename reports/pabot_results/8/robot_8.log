@@ -1,30 +1,30 @@
-2026-06-20 02:34:02.991180 ==============================================================================
-2026-06-20 02:34:03.015965 Tests
-2026-06-20 02:34:03.016033 ==============================================================================
-2026-06-20 02:34:03.016107 Tests.Api
-2026-06-20 02:34:03.018643 ==============================================================================
-2026-06-20 02:34:03.819989 Tests.Api.TC-API-09
-2026-06-20 02:34:03.851133 ==============================================================================
-2026-06-20 02:34:03.851220 Loading environment
-2026-06-20 02:34:03.856276 Fetching active accounts
-2026-06-20 02:34:03.875212 Creating API session
-2026-06-20 02:34:03.877011 Getting customer accounts
-2026-06-20 02:34:04.501457 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 02:34:04.570120 TC_API_09 :: Verify fund transfer fails for excessive balance amount  Transferring funds via API
-2026-06-20 02:34:04.570120   warnings.warn(
-2026-06-20 02:34:05.015755 Validating response
-2026-06-20 02:34:05.015755 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 02:34:05.060822 | FAIL |
-2026-06-20 02:34:05.060822   warnings.warn(
-2026-06-20 02:34:05.065498 200 == 200
-2026-06-20 02:34:05.065634 ------------------------------------------------------------------------------
-2026-06-20 02:34:05.065707 Tests.Api.TC-API-09                                                   | FAIL |
-2026-06-20 02:34:05.106277 1 test, 0 passed, 1 failed
-2026-06-20 02:34:05.106337 ==============================================================================
-2026-06-20 02:34:05.106374 Tests.Api                                                             | FAIL |
-2026-06-20 02:34:05.106405 1 test, 0 passed, 1 failed
-2026-06-20 02:34:05.106435 ==============================================================================
-2026-06-20 02:34:05.106463 Tests                                                                 | FAIL |
-2026-06-20 02:34:05.106491 1 test, 0 passed, 1 failed
-2026-06-20 02:34:05.106520 ==============================================================================
-2026-06-20 02:34:05.106550 Output:  I:\CAPSTONE\reports\pabot_results\8\output.xml
+2026-06-20 12:12:20.623055 ==============================================================================
+2026-06-20 12:12:20.628384 Tests
+2026-06-20 12:12:20.628454 ==============================================================================
+2026-06-20 12:12:20.628499 Tests.Api
+2026-06-20 12:12:20.629825 ==============================================================================
+2026-06-20 12:12:21.000895 Tests.Api.TC-API-09
+2026-06-20 12:12:21.039496 ==============================================================================
+2026-06-20 12:12:21.039531 Loading environment
+2026-06-20 12:12:21.041626 Fetching active accounts
+2026-06-20 12:12:21.052721 Creating API session
+2026-06-20 12:12:21.053501 Getting customer accounts
+2026-06-20 12:12:21.481293 TC_API_09 :: Verify fund transfer fails for excessive balance amount  Transferring funds via API
+2026-06-20 12:12:21.481293 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 12:12:21.520257   warnings.warn(
+2026-06-20 12:12:21.759807 Validating response
+2026-06-20 12:12:21.759807 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 12:12:21.818033 | FAIL |
+2026-06-20 12:12:21.818033   warnings.warn(
+2026-06-20 12:12:21.820342 200 == 200
+2026-06-20 12:12:21.820367 ------------------------------------------------------------------------------
+2026-06-20 12:12:21.820389 Tests.Api.TC-API-09                                                   | FAIL |
+2026-06-20 12:12:21.823842 1 test, 0 passed, 1 failed
+2026-06-20 12:12:21.823867 ==============================================================================
+2026-06-20 12:12:21.823878 Tests.Api                                                             | FAIL |
+2026-06-20 12:12:21.824232 1 test, 0 passed, 1 failed
+2026-06-20 12:12:21.824252 ==============================================================================
+2026-06-20 12:12:21.824262 Tests                                                                 | FAIL |
+2026-06-20 12:12:21.824579 1 test, 0 passed, 1 failed
+2026-06-20 12:12:21.824602 ==============================================================================
+2026-06-20 12:12:21.824616 Output:  I:\CAPSTONE\reports\pabot_results\8\output.xml

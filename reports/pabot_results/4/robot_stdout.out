@@ -9,6 +9,8 @@ Loading environment
 Fetching active accounts
 Creating API session
 Getting customer accounts
+Creating new account
+Getting customer accounts
 TC_API_05 :: Verify source account balance after transfer             Getting account details
 Checking response status
 Validating response

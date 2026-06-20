@@ -1,27 +1,21 @@
 [INFO]    Initialized logging in reports\pabot_results
 [INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
-[DEBUG]   Storing .pabotsuitenames file
-[DEBUG]   2026-06-20 02:33:57.801141 [PID:33796] [1] [ID:1] EXECUTING Tests.Api.TC-API-02
-[DEBUG]   2026-06-20 02:33:57.802660 [PID:19504] [3] [ID:2] EXECUTING Tests.Api.TC-API-03
-[DEBUG]   2026-06-20 02:33:57.803485 [PID:9956] [2] [ID:4] EXECUTING Tests.Api.TC-API-05
-[DEBUG]   2026-06-20 02:33:57.803671 [PID:33520] [4] [ID:3] EXECUTING Tests.Api.TC-API-04
-[DEBUG]   2026-06-20 02:33:57.804293 [PID:7148] [0] [ID:0] EXECUTING Tests.Api.TC-API-01
-[INFO]    2026-06-20 02:34:01.778409 [PID:19504] [3] [ID:2] PASSED Tests.Api.TC-API-03 in 4.0 seconds
-[DEBUG]   2026-06-20 02:34:01.787735 [PID:20120] [0] [ID:5] EXECUTING Tests.Api.TC-API-06
-[INFO]    2026-06-20 02:34:01.835092 [PID:7148] [0] [ID:0] PASSED Tests.Api.TC-API-01 in 4.0 seconds
-[INFO]    2026-06-20 02:34:01.836468 [PID:9956] [2] [ID:4] PASSED Tests.Api.TC-API-05 in 4.0 seconds
-[INFO]    2026-06-20 02:34:01.840448 [PID:33520] [4] [ID:3] PASSED Tests.Api.TC-API-04 in 4.0 seconds
-[DEBUG]   2026-06-20 02:34:01.854325 [PID:17244] [1] [ID:6] EXECUTING Tests.Api.TC-API-07
-[DEBUG]   2026-06-20 02:34:01.854834 [PID:18924] [2] [ID:7] EXECUTING Tests.Api.TC-API-08
-[DEBUG]   2026-06-20 02:34:01.855668 [PID:4064] [3] [ID:8] EXECUTING Tests.Api.TC-API-09
-[INFO]    2026-06-20 02:34:01.877234 [PID:33796] [1] [ID:1] PASSED Tests.Api.TC-API-02 in 4.1 seconds
-[DEBUG]   2026-06-20 02:34:01.889441 [PID:27776] [4] [ID:9] EXECUTING Tests.Api.TC-API-10
-[INFO]    2026-06-20 02:34:05.027084 [PID:20120] [0] [ID:5] PASSED Tests.Api.TC-API-06 in 3.2 seconds
-[DEBUG]   2026-06-20 02:34:05.036883 [PID:18004] [0] [ID:10] EXECUTING Tests.Data Driven.Data Driven Csv
-[INFO]    2026-06-20 02:34:05.511645 [PID:27776] [4] [ID:9] PASSED Tests.Api.TC-API-10 in 3.6 seconds
-[DEBUG]   2026-06-20 02:34:05.521759 [PID:15868] [1] [ID:11] EXECUTING Tests.E2E.TC-E2E-01
-[INFO]    2026-06-20 02:34:05.562878 [PID:17244] [1] [ID:6] PASSED Tests.Api.TC-API-07 in 3.7 seconds
-[INFO]    2026-06-20 02:34:05.570457 [PID:4064] [3] [ID:8] Execution failed in Tests.Api.TC-API-09 with 1 failing test(s)
+[DEBUG]   2026-06-20 12:12:16.794826 [PID:20544] [0] [ID:0] EXECUTING Tests.Api.TC-API-01
+[DEBUG]   2026-06-20 12:12:16.795359 [PID:30040] [2] [ID:4] EXECUTING Tests.Api.TC-API-05
+[DEBUG]   2026-06-20 12:12:16.795487 [PID:30320] [3] [ID:2] EXECUTING Tests.Api.TC-API-03
+[DEBUG]   2026-06-20 12:12:16.795956 [PID:10328] [1] [ID:1] EXECUTING Tests.Api.TC-API-02
+[DEBUG]   2026-06-20 12:12:16.796802 [PID:21888] [4] [ID:3] EXECUTING Tests.Api.TC-API-04
+[INFO]    2026-06-20 12:12:20.019044 [PID:30040] [2] [ID:4] PASSED Tests.Api.TC-API-05 in 3.1 seconds
+[INFO]    2026-06-20 12:12:20.020570 [PID:20544] [0] [ID:0] PASSED Tests.Api.TC-API-01 in 3.2 seconds
+[INFO]    2026-06-20 12:12:20.021805 [PID:21888] [4] [ID:3] PASSED Tests.Api.TC-API-04 in 3.2 seconds
+[DEBUG]   2026-06-20 12:12:20.024907 [PID:17600] [0] [ID:5] EXECUTING Tests.Api.TC-API-06
+[DEBUG]   2026-06-20 12:12:20.025331 [PID:23968] [1] [ID:6] EXECUTING Tests.Api.TC-API-07
+[DEBUG]   2026-06-20 12:12:20.025975 [PID:8024] [2] [ID:7] EXECUTING Tests.Api.TC-API-08
+[INFO]    2026-06-20 12:12:20.059105 [PID:10328] [1] [ID:1] PASSED Tests.Api.TC-API-02 in 3.3 seconds
+[DEBUG]   2026-06-20 12:12:20.064469 [PID:5896] [3] [ID:8] EXECUTING Tests.Api.TC-API-09
+[INFO]    2026-06-20 12:12:20.128039 [PID:30320] [3] [ID:2] PASSED Tests.Api.TC-API-03 in 3.3 seconds
+[DEBUG]   2026-06-20 12:12:20.133154 [PID:31304] [4] [ID:9] EXECUTING Tests.Api.TC-API-10
+[INFO]    2026-06-20 12:12:22.111864 [PID:5896] [3] [ID:8] Execution failed in Tests.Api.TC-API-09 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -53,7 +47,9 @@ I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequ
   warnings.warn(
 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-[INFO]    2026-06-20 02:34:05.573377 [PID:18924] [2] [ID:7] Execution failed in Tests.Api.TC-API-08 with 1 failing test(s)
+[DEBUG]   2026-06-20 12:12:22.116777 [PID:31508] [0] [ID:10] EXECUTING Tests.Data Driven.Data Driven Csv
+[INFO]    2026-06-20 12:12:22.144295 [PID:17600] [0] [ID:5] PASSED Tests.Api.TC-API-06 in 2.1 seconds
+[INFO]    2026-06-20 12:12:22.144400 [PID:8024] [2] [ID:7] Execution failed in Tests.Api.TC-API-08 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -85,56 +81,55 @@ I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequ
   warnings.warn(
 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-[DEBUG]   2026-06-20 02:34:05.586138 [PID:3816] [3] [ID:13] EXECUTING Tests.Performance.API response time
-[DEBUG]   2026-06-20 02:34:05.588526 [PID:33204] [4] [ID:14] EXECUTING Tests.Ui.TC-AC-UI-01
-[DEBUG]   2026-06-20 02:34:05.591098 [PID:17664] [2] [ID:12] EXECUTING Tests.E2E.TC-E2E-02
-[INFO]    2026-06-20 02:34:09.198009 [PID:3816] [3] [ID:13] PASSED Tests.Performance.API response time in 3.6 seconds
-[DEBUG]   2026-06-20 02:34:09.385664 [PID:17584] [0] [ID:15] EXECUTING Tests.Ui.TC-AC-UI-02
-[DEBUG]   2026-06-20 02:34:10.601093 [PID:18004] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 5.0s
-[DEBUG]   2026-06-20 02:34:10.686547 [PID:17664] [2] [ID:12] still running Tests.E2E.TC-E2E-02 after 5.0s
-[DEBUG]   2026-06-20 02:34:10.752141 [PID:33204] [4] [ID:14] still running Tests.Ui.TC-AC-UI-01 after 5.0s
-[DEBUG]   2026-06-20 02:34:10.902702 [PID:15868] [1] [ID:11] still running Tests.E2E.TC-E2E-01 after 5.0s
-[DEBUG]   2026-06-20 02:34:14.479521 [PID:17584] [0] [ID:15] still running Tests.Ui.TC-AC-UI-02 after 5.0s
-[DEBUG]   2026-06-20 02:34:20.743008 [PID:17664] [2] [ID:12] still running Tests.E2E.TC-E2E-02 after 15.0s
-[DEBUG]   2026-06-20 02:34:20.781201 [PID:18004] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 15.0s
-[DEBUG]   2026-06-20 02:34:20.822773 [PID:33204] [4] [ID:14] still running Tests.Ui.TC-AC-UI-01 after 15.0s
-[DEBUG]   2026-06-20 02:34:21.074594 [PID:15868] [1] [ID:11] still running Tests.E2E.TC-E2E-01 after 15.0s
-[DEBUG]   2026-06-20 02:34:24.539959 [PID:17584] [0] [ID:15] still running Tests.Ui.TC-AC-UI-02 after 15.0s
-[INFO]    2026-06-20 02:34:25.427941 [PID:15868] [1] [ID:11] PASSED Tests.E2E.TC-E2E-01 in 19.9 seconds
-[DEBUG]   2026-06-20 02:34:25.438631 [PID:15820] [1] [ID:16] EXECUTING Tests.Ui.TC-AC-UI-03
-[INFO]    2026-06-20 02:34:26.792814 [PID:17664] [2] [ID:12] PASSED Tests.E2E.TC-E2E-02 in 21.2 seconds
-[DEBUG]   2026-06-20 02:34:26.865743 [PID:13880] [2] [ID:17] EXECUTING Tests.Ui.TC-AC-UI-04
-[INFO]    2026-06-20 02:34:27.006343 [PID:33204] [4] [ID:14] PASSED Tests.Ui.TC-AC-UI-01 in 21.4 seconds
-[DEBUG]   2026-06-20 02:34:27.016144 [PID:7304] [3] [ID:18] EXECUTING Tests.Ui.TC-NAV-UI-01
-[DEBUG]   2026-06-20 02:34:30.479675 [PID:15820] [1] [ID:16] still running Tests.Ui.TC-AC-UI-03 after 5.0s
-[INFO]    2026-06-20 02:34:30.983168 [PID:17584] [0] [ID:15] PASSED Tests.Ui.TC-AC-UI-02 in 21.8 seconds
-[DEBUG]   2026-06-20 02:34:31.019346 [PID:30620] [4] [ID:19] EXECUTING Tests.Ui.TC-TX-UI-01
-[DEBUG]   2026-06-20 02:34:31.926231 [PID:13880] [2] [ID:17] still running Tests.Ui.TC-AC-UI-04 after 5.0s
-[DEBUG]   2026-06-20 02:34:32.069315 [PID:7304] [3] [ID:18] still running Tests.Ui.TC-NAV-UI-01 after 5.0s
-[DEBUG]   2026-06-20 02:34:36.087611 [PID:18004] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 30.0s
-[DEBUG]   2026-06-20 02:34:36.087742 [PID:30620] [4] [ID:19] still running Tests.Ui.TC-TX-UI-01 after 5.0s
-[DEBUG]   2026-06-20 02:34:40.728189 [PID:15820] [1] [ID:16] still running Tests.Ui.TC-AC-UI-03 after 15.0s
-[DEBUG]   2026-06-20 02:34:41.968821 [PID:13880] [2] [ID:17] still running Tests.Ui.TC-AC-UI-04 after 15.0s
-[DEBUG]   2026-06-20 02:34:42.115660 [PID:7304] [3] [ID:18] still running Tests.Ui.TC-NAV-UI-01 after 15.0s
-[INFO]    2026-06-20 02:34:43.181659 [PID:13880] [2] [ID:17] PASSED Tests.Ui.TC-AC-UI-04 in 16.3 seconds
-[DEBUG]   2026-06-20 02:34:43.193840 [PID:4588] [0] [ID:20] EXECUTING Tests.Ui.TC-TX-UI-02
-[INFO]    2026-06-20 02:34:44.762316 [PID:7304] [3] [ID:18] PASSED Tests.Ui.TC-NAV-UI-01 in 17.7 seconds
-[DEBUG]   2026-06-20 02:34:44.772175 [PID:20132] [1] [ID:21] EXECUTING Tests.Ui.TC-TX-UI-03
-[DEBUG]   2026-06-20 02:34:46.174832 [PID:30620] [4] [ID:19] still running Tests.Ui.TC-TX-UI-01 after 15.0s
-[INFO]    2026-06-20 02:34:48.100892 [PID:15820] [1] [ID:16] PASSED Tests.Ui.TC-AC-UI-03 in 22.7 seconds
-[DEBUG]   2026-06-20 02:34:48.113079 [PID:28908] [2] [ID:22] EXECUTING Tests.Ui.TC-TX-UI-04
-[DEBUG]   2026-06-20 02:34:48.232147 [PID:4588] [0] [ID:20] still running Tests.Ui.TC-TX-UI-02 after 5.0s
-[DEBUG]   2026-06-20 02:34:49.793773 [PID:20132] [1] [ID:21] still running Tests.Ui.TC-TX-UI-03 after 5.0s
-[INFO]    2026-06-20 02:34:51.816338 [PID:30620] [4] [ID:19] PASSED Tests.Ui.TC-TX-UI-01 in 20.8 seconds
-[DEBUG]   2026-06-20 02:34:51.844040 [PID:15508] [3] [ID:23] EXECUTING Tests.Ui.TC-TX-UI-05
-[DEBUG]   2026-06-20 02:34:53.138398 [PID:28908] [2] [ID:22] still running Tests.Ui.TC-TX-UI-04 after 5.0s
-[DEBUG]   2026-06-20 02:34:56.235837 [PID:18004] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 50.0s
-[DEBUG]   2026-06-20 02:34:56.871227 [PID:15508] [3] [ID:23] still running Tests.Ui.TC-TX-UI-05 after 5.0s
-[DEBUG]   2026-06-20 02:34:58.274667 [PID:4588] [0] [ID:20] still running Tests.Ui.TC-TX-UI-02 after 15.0s
-[DEBUG]   2026-06-20 02:34:59.853445 [PID:20132] [1] [ID:21] still running Tests.Ui.TC-TX-UI-03 after 15.0s
-[INFO]    2026-06-20 02:35:00.770112 [PID:18004] [0] [ID:10] PASSED Tests.Data Driven.Data Driven Csv in 55.7 seconds
-[DEBUG]   2026-06-20 02:35:03.197061 [PID:28908] [2] [ID:22] still running Tests.Ui.TC-TX-UI-04 after 15.0s
-[INFO]    2026-06-20 02:35:03.406531 [PID:4588] [0] [ID:20] Execution failed in Tests.Ui.TC-TX-UI-02 with 1 failing test(s)
+[DEBUG]   2026-06-20 12:12:22.149411 [PID:17296] [2] [ID:12] EXECUTING Tests.E2E.TC-E2E-02
+[DEBUG]   2026-06-20 12:12:22.149537 [PID:4276] [1] [ID:11] EXECUTING Tests.E2E.TC-E2E-01
+[INFO]    2026-06-20 12:12:22.458664 [PID:31304] [4] [ID:9] PASSED Tests.Api.TC-API-10 in 2.3 seconds
+[DEBUG]   2026-06-20 12:12:22.464275 [PID:13036] [3] [ID:13] EXECUTING Tests.Performance.API response time
+[INFO]    2026-06-20 12:12:22.543824 [PID:23968] [1] [ID:6] PASSED Tests.Api.TC-API-07 in 2.5 seconds
+[DEBUG]   2026-06-20 12:12:22.549939 [PID:11404] [4] [ID:14] EXECUTING Tests.Ui.TC-AC-UI-01
+[INFO]    2026-06-20 12:12:24.936113 [PID:13036] [3] [ID:13] PASSED Tests.Performance.API response time in 2.5 seconds
+[DEBUG]   2026-06-20 12:12:24.946791 [PID:28572] [0] [ID:15] EXECUTING Tests.Ui.TC-AC-UI-02
+[DEBUG]   2026-06-20 12:12:27.176206 [PID:17296] [2] [ID:12] still running Tests.E2E.TC-E2E-02 after 5.0s
+[DEBUG]   2026-06-20 12:12:27.190410 [PID:31508] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 5.0s
+[DEBUG]   2026-06-20 12:12:27.203724 [PID:4276] [1] [ID:11] still running Tests.E2E.TC-E2E-01 after 5.0s
+[DEBUG]   2026-06-20 12:12:27.580086 [PID:11404] [4] [ID:14] still running Tests.Ui.TC-AC-UI-01 after 5.0s
+[DEBUG]   2026-06-20 12:12:29.986799 [PID:28572] [0] [ID:15] still running Tests.Ui.TC-AC-UI-02 after 5.0s
+[DEBUG]   2026-06-20 12:12:37.291287 [PID:17296] [2] [ID:12] still running Tests.E2E.TC-E2E-02 after 15.0s
+[DEBUG]   2026-06-20 12:12:37.292838 [PID:31508] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 15.0s
+[DEBUG]   2026-06-20 12:12:37.331404 [PID:4276] [1] [ID:11] still running Tests.E2E.TC-E2E-01 after 15.0s
+[DEBUG]   2026-06-20 12:12:37.694262 [PID:11404] [4] [ID:14] still running Tests.Ui.TC-AC-UI-01 after 15.0s
+[DEBUG]   2026-06-20 12:12:40.101302 [PID:28572] [0] [ID:15] still running Tests.Ui.TC-AC-UI-02 after 15.0s
+[INFO]    2026-06-20 12:12:40.205048 [PID:17296] [2] [ID:12] PASSED Tests.E2E.TC-E2E-02 in 18.1 seconds
+[DEBUG]   2026-06-20 12:12:40.210023 [PID:33136] [1] [ID:16] EXECUTING Tests.Ui.TC-AC-UI-03
+[INFO]    2026-06-20 12:12:41.248488 [PID:4276] [1] [ID:11] PASSED Tests.E2E.TC-E2E-01 in 19.1 seconds
+[DEBUG]   2026-06-20 12:12:41.255071 [PID:30616] [2] [ID:17] EXECUTING Tests.Ui.TC-AC-UI-04
+[INFO]    2026-06-20 12:12:41.417138 [PID:11404] [4] [ID:14] PASSED Tests.Ui.TC-AC-UI-01 in 18.9 seconds
+[DEBUG]   2026-06-20 12:12:41.423324 [PID:6220] [3] [ID:18] EXECUTING Tests.Ui.TC-NAV-UI-01
+[INFO]    2026-06-20 12:12:44.327210 [PID:28572] [0] [ID:15] PASSED Tests.Ui.TC-AC-UI-02 in 19.4 seconds
+[DEBUG]   2026-06-20 12:12:44.334122 [PID:22668] [4] [ID:19] EXECUTING Tests.Ui.TC-TX-UI-01
+[DEBUG]   2026-06-20 12:12:45.229442 [PID:33136] [1] [ID:16] still running Tests.Ui.TC-AC-UI-03 after 5.0s
+[DEBUG]   2026-06-20 12:12:46.273537 [PID:30616] [2] [ID:17] still running Tests.Ui.TC-AC-UI-04 after 5.0s
+[DEBUG]   2026-06-20 12:12:46.442392 [PID:6220] [3] [ID:18] still running Tests.Ui.TC-NAV-UI-01 after 5.0s
+[DEBUG]   2026-06-20 12:12:49.350165 [PID:22668] [4] [ID:19] still running Tests.Ui.TC-TX-UI-01 after 5.0s
+[DEBUG]   2026-06-20 12:12:52.349400 [PID:31508] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 30.0s
+[INFO]    2026-06-20 12:12:54.312782 [PID:30616] [2] [ID:17] PASSED Tests.Ui.TC-AC-UI-04 in 13.1 seconds
+[DEBUG]   2026-06-20 12:12:54.319322 [PID:34696] [0] [ID:20] EXECUTING Tests.Ui.TC-TX-UI-02
+[DEBUG]   2026-06-20 12:12:55.261233 [PID:33136] [1] [ID:16] still running Tests.Ui.TC-AC-UI-03 after 15.0s
+[INFO]    2026-06-20 12:12:55.675143 [PID:6220] [3] [ID:18] PASSED Tests.Ui.TC-NAV-UI-01 in 14.3 seconds
+[DEBUG]   2026-06-20 12:12:55.681298 [PID:26108] [1] [ID:21] EXECUTING Tests.Ui.TC-TX-UI-03
+[DEBUG]   2026-06-20 12:12:59.335561 [PID:34696] [0] [ID:20] still running Tests.Ui.TC-TX-UI-02 after 5.0s
+[DEBUG]   2026-06-20 12:12:59.382271 [PID:22668] [4] [ID:19] still running Tests.Ui.TC-TX-UI-01 after 15.0s
+[DEBUG]   2026-06-20 12:13:00.699336 [PID:26108] [1] [ID:21] still running Tests.Ui.TC-TX-UI-03 after 5.0s
+[INFO]    2026-06-20 12:13:01.594216 [PID:33136] [1] [ID:16] PASSED Tests.Ui.TC-AC-UI-03 in 21.4 seconds
+[DEBUG]   2026-06-20 12:13:01.601070 [PID:16356] [2] [ID:22] EXECUTING Tests.Ui.TC-TX-UI-04
+[INFO]    2026-06-20 12:13:02.999581 [PID:22668] [4] [ID:19] PASSED Tests.Ui.TC-TX-UI-01 in 18.7 seconds
+[DEBUG]   2026-06-20 12:13:03.005445 [PID:9804] [3] [ID:23] EXECUTING Tests.Ui.TC-TX-UI-05
+[INFO]    2026-06-20 12:13:06.616018 [PID:31508] [0] [ID:10] PASSED Tests.Data Driven.Data Driven Csv in 44.5 seconds
+[DEBUG]   2026-06-20 12:13:06.658690 [PID:16356] [2] [ID:22] still running Tests.Ui.TC-TX-UI-04 after 5.0s
+[DEBUG]   2026-06-20 12:13:08.021292 [PID:9804] [3] [ID:23] still running Tests.Ui.TC-TX-UI-05 after 5.0s
+[DEBUG]   2026-06-20 12:13:09.381125 [PID:34696] [0] [ID:20] still running Tests.Ui.TC-TX-UI-02 after 15.0s
+[DEBUG]   2026-06-20 12:13:10.743088 [PID:26108] [1] [ID:21] still running Tests.Ui.TC-TX-UI-03 after 15.0s
+[INFO]    2026-06-20 12:13:11.797014 [PID:34696] [0] [ID:20] Execution failed in Tests.Ui.TC-TX-UI-02 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -170,10 +165,11 @@ Output:  I:\CAPSTONE\reports\pabot_results\20\output.xml
 
 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-[INFO]    2026-06-20 02:35:04.594410 [PID:20132] [1] [ID:21] PASSED Tests.Ui.TC-TX-UI-03 in 19.8 seconds
-[DEBUG]   2026-06-20 02:35:06.943046 [PID:15508] [3] [ID:23] still running Tests.Ui.TC-TX-UI-05 after 15.0s
-[INFO]    2026-06-20 02:35:08.054174 [PID:28908] [2] [ID:22] PASSED Tests.Ui.TC-TX-UI-04 in 19.9 seconds
-[INFO]    2026-06-20 02:35:11.597745 [PID:15508] [3] [ID:23] Execution failed in Tests.Ui.TC-TX-UI-05 with 1 failing test(s)
+[INFO]    2026-06-20 12:13:12.800337 [PID:26108] [1] [ID:21] PASSED Tests.Ui.TC-TX-UI-03 in 17.1 seconds
+[DEBUG]   2026-06-20 12:13:16.708067 [PID:16356] [2] [ID:22] still running Tests.Ui.TC-TX-UI-04 after 15.0s
+[INFO]    2026-06-20 12:13:17.815851 [PID:16356] [2] [ID:22] PASSED Tests.Ui.TC-TX-UI-04 in 16.2 seconds
+[DEBUG]   2026-06-20 12:13:18.111718 [PID:9804] [3] [ID:23] still running Tests.Ui.TC-TX-UI-05 after 15.0s
+[INFO]    2026-06-20 12:13:20.131133 [PID:9804] [3] [ID:23] Execution failed in Tests.Ui.TC-TX-UI-05 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -218,6 +214,6 @@ I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequ
 [DEBUG]   Stopping PabotLib process
 [INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
 [DEBUG]   PabotLib process stopped
-[INFO]    Total testing: 5 minutes 38.80 seconds
-[INFO]    Elapsed time:  1 minute 15.74 seconds
+[INFO]    Total testing: 4 minutes 45.0 seconds
+[INFO]    Elapsed time:  1 minute 4.36 seconds
 [DEBUG]   Logs flushed successfully.

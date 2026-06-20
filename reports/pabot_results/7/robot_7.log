@@ -1,30 +1,30 @@
-2026-06-20 02:34:02.975766 ==============================================================================
-2026-06-20 02:34:03.009149 Tests
-2026-06-20 02:34:03.009287 ==============================================================================
-2026-06-20 02:34:03.009345 Tests.Api
-2026-06-20 02:34:03.011944 ==============================================================================
-2026-06-20 02:34:03.820078 Tests.Api.TC-API-08
-2026-06-20 02:34:03.847643 ==============================================================================
-2026-06-20 02:34:03.847734 Loading environment
-2026-06-20 02:34:03.851673 Fetching active accounts
-2026-06-20 02:34:03.872758 Creating API session
-2026-06-20 02:34:03.874891 Getting customer accounts
-2026-06-20 02:34:04.501354 TC_API_08 :: Verify GET account details for non-existent account ID   Gives 400 HTTP status code for non-existent account ID
-2026-06-20 02:34:04.501354 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 02:34:04.583496 Getting account details
-2026-06-20 02:34:04.583496   warnings.warn(
-2026-06-20 02:34:05.015559 | FAIL |
-2026-06-20 02:34:05.015559 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 02:34:05.103613 HTTPError: 400 Client Error: Bad Request for url: https://parabank.parasoft.com/parabank/services/bank/accounts/99999
-2026-06-20 02:34:05.103613   warnings.warn(
-2026-06-20 02:34:05.111035 ------------------------------------------------------------------------------
-2026-06-20 02:34:05.111090 Tests.Api.TC-API-08                                                   | FAIL |
-2026-06-20 02:34:05.111123 1 test, 0 passed, 1 failed
-2026-06-20 02:34:05.111153 ==============================================================================
-2026-06-20 02:34:05.111183 Tests.Api                                                             | FAIL |
-2026-06-20 02:34:05.111211 1 test, 0 passed, 1 failed
-2026-06-20 02:34:05.111239 ==============================================================================
-2026-06-20 02:34:05.111266 Tests                                                                 | FAIL |
-2026-06-20 02:34:05.111293 1 test, 0 passed, 1 failed
-2026-06-20 02:34:05.111319 ==============================================================================
-2026-06-20 02:34:05.111345 Output:  I:\CAPSTONE\reports\pabot_results\7\output.xml
+2026-06-20 12:12:20.576224 ==============================================================================
+2026-06-20 12:12:20.604876 Tests
+2026-06-20 12:12:20.604926 ==============================================================================
+2026-06-20 12:12:20.604954 Tests.Api
+2026-06-20 12:12:20.606881 ==============================================================================
+2026-06-20 12:12:20.985265 Tests.Api.TC-API-08
+2026-06-20 12:12:21.021909 ==============================================================================
+2026-06-20 12:12:21.021942 Loading environment
+2026-06-20 12:12:21.024055 Fetching active accounts
+2026-06-20 12:12:21.034441 Creating API session
+2026-06-20 12:12:21.035610 Getting customer accounts
+2026-06-20 12:12:21.465522 TC_API_08 :: Verify GET account details for non-existent account ID   Gives 400 HTTP status code for non-existent account ID
+2026-06-20 12:12:21.465522 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 12:12:21.494073 Getting account details
+2026-06-20 12:12:21.494073   warnings.warn(
+2026-06-20 12:12:21.744417 | FAIL |
+2026-06-20 12:12:21.744417 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-20 12:12:21.801840 HTTPError: 400 Client Error: Bad Request for url: https://parabank.parasoft.com/parabank/services/bank/accounts/99999
+2026-06-20 12:12:21.801840   warnings.warn(
+2026-06-20 12:12:21.802056 ------------------------------------------------------------------------------
+2026-06-20 12:12:21.802073 Tests.Api.TC-API-08                                                   | FAIL |
+2026-06-20 12:12:21.804383 1 test, 0 passed, 1 failed
+2026-06-20 12:12:21.804400 ==============================================================================
+2026-06-20 12:12:21.804410 Tests.Api                                                             | FAIL |
+2026-06-20 12:12:21.804892 1 test, 0 passed, 1 failed
+2026-06-20 12:12:21.804913 ==============================================================================
+2026-06-20 12:12:21.804924 Tests                                                                 | FAIL |
+2026-06-20 12:12:21.805297 1 test, 0 passed, 1 failed
+2026-06-20 12:12:21.805340 ==============================================================================
+2026-06-20 12:12:21.805359 Output:  I:\CAPSTONE\reports\pabot_results\7\output.xml
