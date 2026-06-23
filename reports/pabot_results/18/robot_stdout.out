@@ -3,27 +3,30 @@ Tests
 ==============================================================================
 Tests.Ui
 ==============================================================================
-Tests.Ui.TC-NAV-UI-01
+Tests.Ui.TC-TX-UI-02
 ==============================================================================
 Loading environment
 Fetching active accounts
 Creating API session
 Getting customer accounts
-TC-NAV-UI-01 :: Verify UI navigation flow                             Opening application
+TC-TX-UI-02 :: Verify Zero amount funds transfer rejection            Opening application
 Logging in
-Validating page URL contains 'openaccount'
-Navigating to transfer funds
-Validating page URL contains 'transfer'
+Entering Zero amount
+Selecting source account
+Selecting destination account
+Transferring funds with zero amount
+Validating response
 Closing browser
-| PASS |
+| FAIL |
+Page should not have contained text 'Transfer Complete!'.
 ------------------------------------------------------------------------------
-Tests.Ui.TC-NAV-UI-01                                                 | PASS |
-1 test, 1 passed, 0 failed
+Tests.Ui.TC-TX-UI-02                                                  | FAIL |
+1 test, 0 passed, 1 failed
 ==============================================================================
-Tests.Ui                                                              | PASS |
-1 test, 1 passed, 0 failed
+Tests.Ui                                                              | FAIL |
+1 test, 0 passed, 1 failed
 ==============================================================================
-Tests                                                                 | PASS |
-1 test, 1 passed, 0 failed
+Tests                                                                 | FAIL |
+1 test, 0 passed, 1 failed
 ==============================================================================
 Output:  I:\CAPSTONE\reports\pabot_results\18\output.xml

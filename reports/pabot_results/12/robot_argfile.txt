@@ -1,11 +1,11 @@
---suite Tests.E2E.TC-E2E-02
---variable CALLER_ID:d0f8294c72724b5584504e85882d0f38
+--suite Tests.Ui.TC-AC-UI-01
+--variable CALLER_ID:1d754e75d16b4f33bf07d664ca4bba5a
 --variable PABOTLIBURI:127.0.0.1:8270
 --variable PABOTEXECUTIONPOOLID:2
 --variable PABOTISLASTEXECUTIONINPOOL:0
 --variable PABOTNUMBEROFPROCESSES:5
 --variable PABOTQUEUEINDEX:12
---variable PABOTLASTLEVEL:Tests.E2E
+--variable PABOTLASTLEVEL:Tests.Ui.TC-AC-UI-01
 --outputdir reports\pabot_results\12
 --listener allure_robotframework
 --output output.xml

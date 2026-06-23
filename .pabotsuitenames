@@ -1,7 +1,7 @@
-datasources:00c60626a1dd7ad92d14f1edcb133d54c175763b
+datasources:909b4d46eb49e7ac975fe14e5bbf2588458819e8
 commandlineoptions:5ea3922db11a42de3fa4c89e9d9f06972f891d9e
 suitesfrom:no-suites-from-option
-file:23450f78ef9a22682ee6d5cb9e4acad09f989b2d
+file:7719c6ce4986a9cdee7b126d76a5b2337daef920
 --suite Tests.Api.TC-API-01
 --suite Tests.Api.TC-API-02
 --suite Tests.Api.TC-API-03
@@ -12,10 +12,8 @@ file:23450f78ef9a22682ee6d5cb9e4acad09f989b2d
 --suite Tests.Api.TC-API-08
 --suite Tests.Api.TC-API-09
 --suite Tests.Api.TC-API-10
---suite Tests.Data Driven.Data Driven Csv
 --suite Tests.E2E.TC-E2E-01
 --suite Tests.E2E.TC-E2E-02
---suite Tests.Performance.API response time
 --suite Tests.Ui.TC-AC-UI-01
 --suite Tests.Ui.TC-AC-UI-02
 --suite Tests.Ui.TC-AC-UI-03

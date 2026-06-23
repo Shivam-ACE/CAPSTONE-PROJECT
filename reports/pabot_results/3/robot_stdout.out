@@ -9,8 +9,6 @@ Loading environment
 Fetching active accounts
 Creating API session
 Getting customer accounts
-Creating new account
-Getting customer accounts
 TC_API_04 :: Verify fund transfer via API                             Transferring funds via API
 Checking response status
 Validating response

@@ -9,8 +9,6 @@ Loading environment
 Fetching active accounts
 Creating API session
 Getting customer accounts
-Creating new account
-Getting customer accounts
 TC_API_03 :: Verify newly created account exists in customer accou... Getting customer accounts
 Checking response status
 Validating response

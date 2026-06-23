@@ -1,11 +1,11 @@
---suite Tests.Data Driven.Data Driven Csv
---variable CALLER_ID:e387e239af794c2ca4e3583a818fab57
+--suite Tests.E2E.TC-E2E-01
+--variable CALLER_ID:4578f160e4ff4ed1beb329d25d20b740
 --variable PABOTLIBURI:127.0.0.1:8270
 --variable PABOTEXECUTIONPOOLID:0
 --variable PABOTISLASTEXECUTIONINPOOL:0
 --variable PABOTNUMBEROFPROCESSES:5
 --variable PABOTQUEUEINDEX:10
---variable PABOTLASTLEVEL:Tests.Data Driven
+--variable PABOTLASTLEVEL:Tests.E2E.TC-E2E-01
 --outputdir reports\pabot_results\10
 --listener allure_robotframework
 --output output.xml

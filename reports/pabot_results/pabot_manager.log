@@ -1,55 +1,23 @@
 [INFO]    Initialized logging in reports\pabot_results
 [INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
-[DEBUG]   2026-06-20 12:12:16.794826 [PID:20544] [0] [ID:0] EXECUTING Tests.Api.TC-API-01
-[DEBUG]   2026-06-20 12:12:16.795359 [PID:30040] [2] [ID:4] EXECUTING Tests.Api.TC-API-05
-[DEBUG]   2026-06-20 12:12:16.795487 [PID:30320] [3] [ID:2] EXECUTING Tests.Api.TC-API-03
-[DEBUG]   2026-06-20 12:12:16.795956 [PID:10328] [1] [ID:1] EXECUTING Tests.Api.TC-API-02
-[DEBUG]   2026-06-20 12:12:16.796802 [PID:21888] [4] [ID:3] EXECUTING Tests.Api.TC-API-04
-[INFO]    2026-06-20 12:12:20.019044 [PID:30040] [2] [ID:4] PASSED Tests.Api.TC-API-05 in 3.1 seconds
-[INFO]    2026-06-20 12:12:20.020570 [PID:20544] [0] [ID:0] PASSED Tests.Api.TC-API-01 in 3.2 seconds
-[INFO]    2026-06-20 12:12:20.021805 [PID:21888] [4] [ID:3] PASSED Tests.Api.TC-API-04 in 3.2 seconds
-[DEBUG]   2026-06-20 12:12:20.024907 [PID:17600] [0] [ID:5] EXECUTING Tests.Api.TC-API-06
-[DEBUG]   2026-06-20 12:12:20.025331 [PID:23968] [1] [ID:6] EXECUTING Tests.Api.TC-API-07
-[DEBUG]   2026-06-20 12:12:20.025975 [PID:8024] [2] [ID:7] EXECUTING Tests.Api.TC-API-08
-[INFO]    2026-06-20 12:12:20.059105 [PID:10328] [1] [ID:1] PASSED Tests.Api.TC-API-02 in 3.3 seconds
-[DEBUG]   2026-06-20 12:12:20.064469 [PID:5896] [3] [ID:8] EXECUTING Tests.Api.TC-API-09
-[INFO]    2026-06-20 12:12:20.128039 [PID:30320] [3] [ID:2] PASSED Tests.Api.TC-API-03 in 3.3 seconds
-[DEBUG]   2026-06-20 12:12:20.133154 [PID:31304] [4] [ID:9] EXECUTING Tests.Api.TC-API-10
-[INFO]    2026-06-20 12:12:22.111864 [PID:5896] [3] [ID:8] Execution failed in Tests.Api.TC-API-09 with 1 failing test(s)
-==============================================================================
-Tests
-==============================================================================
-Tests.Api
-==============================================================================
-Tests.Api.TC-API-09
-==============================================================================
-Loading environment
-Fetching active accounts
-Creating API session
-Getting customer accounts
-TC_API_09 :: Verify fund transfer fails for excessive balance amount  Transferring funds via API
-Validating response
-| FAIL |
-200 == 200
-------------------------------------------------------------------------------
-Tests.Api.TC-API-09                                                   | FAIL |
-1 test, 0 passed, 1 failed
-==============================================================================
-Tests.Api                                                             | FAIL |
-1 test, 0 passed, 1 failed
-==============================================================================
-Tests                                                                 | FAIL |
-1 test, 0 passed, 1 failed
-==============================================================================
-Output:  I:\CAPSTONE\reports\pabot_results\8\output.xml
-
-I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-  warnings.warn(
-I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-  warnings.warn(
-[DEBUG]   2026-06-20 12:12:22.116777 [PID:31508] [0] [ID:10] EXECUTING Tests.Data Driven.Data Driven Csv
-[INFO]    2026-06-20 12:12:22.144295 [PID:17600] [0] [ID:5] PASSED Tests.Api.TC-API-06 in 2.1 seconds
-[INFO]    2026-06-20 12:12:22.144400 [PID:8024] [2] [ID:7] Execution failed in Tests.Api.TC-API-08 with 1 failing test(s)
+[DEBUG]   2026-06-23 23:45:55.673719 [PID:27432] [0] [ID:0] EXECUTING Tests.Api.TC-API-01
+[DEBUG]   2026-06-23 23:45:55.674230 [PID:1688] [4] [ID:1] EXECUTING Tests.Api.TC-API-02
+[DEBUG]   2026-06-23 23:45:55.674513 [PID:14852] [2] [ID:3] EXECUTING Tests.Api.TC-API-04
+[DEBUG]   2026-06-23 23:45:55.674810 [PID:24220] [1] [ID:2] EXECUTING Tests.Api.TC-API-03
+[DEBUG]   2026-06-23 23:45:55.675974 [PID:25024] [3] [ID:4] EXECUTING Tests.Api.TC-API-05
+[INFO]    2026-06-23 23:45:59.004119 [PID:14852] [2] [ID:3] PASSED Tests.Api.TC-API-04 in 3.3 seconds
+[DEBUG]   2026-06-23 23:45:59.014954 [PID:11968] [0] [ID:5] EXECUTING Tests.Api.TC-API-06
+[INFO]    2026-06-23 23:45:59.716542 [PID:1688] [4] [ID:1] PASSED Tests.Api.TC-API-02 in 4.0 seconds
+[INFO]    2026-06-23 23:45:59.719623 [PID:27432] [0] [ID:0] PASSED Tests.Api.TC-API-01 in 4.0 seconds
+[INFO]    2026-06-23 23:45:59.722573 [PID:25024] [3] [ID:4] PASSED Tests.Api.TC-API-05 in 4.0 seconds
+[INFO]    2026-06-23 23:45:59.725741 [PID:24220] [1] [ID:2] PASSED Tests.Api.TC-API-03 in 4.0 seconds
+[DEBUG]   2026-06-23 23:45:59.730788 [PID:28928] [1] [ID:6] EXECUTING Tests.Api.TC-API-07
+[DEBUG]   2026-06-23 23:45:59.733023 [PID:14468] [2] [ID:7] EXECUTING Tests.Api.TC-API-08
+[DEBUG]   2026-06-23 23:45:59.735053 [PID:30464] [3] [ID:8] EXECUTING Tests.Api.TC-API-09
+[DEBUG]   2026-06-23 23:45:59.736649 [PID:32464] [4] [ID:9] EXECUTING Tests.Api.TC-API-10
+[INFO]    2026-06-23 23:46:02.259309 [PID:11968] [0] [ID:5] PASSED Tests.Api.TC-API-06 in 3.2 seconds
+[DEBUG]   2026-06-23 23:46:02.269116 [PID:17188] [0] [ID:10] EXECUTING Tests.E2E.TC-E2E-01
+[INFO]    2026-06-23 23:46:02.815592 [PID:14468] [2] [ID:7] Execution failed in Tests.Api.TC-API-08 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -81,55 +49,82 @@ I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequ
   warnings.warn(
 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-[DEBUG]   2026-06-20 12:12:22.149411 [PID:17296] [2] [ID:12] EXECUTING Tests.E2E.TC-E2E-02
-[DEBUG]   2026-06-20 12:12:22.149537 [PID:4276] [1] [ID:11] EXECUTING Tests.E2E.TC-E2E-01
-[INFO]    2026-06-20 12:12:22.458664 [PID:31304] [4] [ID:9] PASSED Tests.Api.TC-API-10 in 2.3 seconds
-[DEBUG]   2026-06-20 12:12:22.464275 [PID:13036] [3] [ID:13] EXECUTING Tests.Performance.API response time
-[INFO]    2026-06-20 12:12:22.543824 [PID:23968] [1] [ID:6] PASSED Tests.Api.TC-API-07 in 2.5 seconds
-[DEBUG]   2026-06-20 12:12:22.549939 [PID:11404] [4] [ID:14] EXECUTING Tests.Ui.TC-AC-UI-01
-[INFO]    2026-06-20 12:12:24.936113 [PID:13036] [3] [ID:13] PASSED Tests.Performance.API response time in 2.5 seconds
-[DEBUG]   2026-06-20 12:12:24.946791 [PID:28572] [0] [ID:15] EXECUTING Tests.Ui.TC-AC-UI-02
-[DEBUG]   2026-06-20 12:12:27.176206 [PID:17296] [2] [ID:12] still running Tests.E2E.TC-E2E-02 after 5.0s
-[DEBUG]   2026-06-20 12:12:27.190410 [PID:31508] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 5.0s
-[DEBUG]   2026-06-20 12:12:27.203724 [PID:4276] [1] [ID:11] still running Tests.E2E.TC-E2E-01 after 5.0s
-[DEBUG]   2026-06-20 12:12:27.580086 [PID:11404] [4] [ID:14] still running Tests.Ui.TC-AC-UI-01 after 5.0s
-[DEBUG]   2026-06-20 12:12:29.986799 [PID:28572] [0] [ID:15] still running Tests.Ui.TC-AC-UI-02 after 5.0s
-[DEBUG]   2026-06-20 12:12:37.291287 [PID:17296] [2] [ID:12] still running Tests.E2E.TC-E2E-02 after 15.0s
-[DEBUG]   2026-06-20 12:12:37.292838 [PID:31508] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 15.0s
-[DEBUG]   2026-06-20 12:12:37.331404 [PID:4276] [1] [ID:11] still running Tests.E2E.TC-E2E-01 after 15.0s
-[DEBUG]   2026-06-20 12:12:37.694262 [PID:11404] [4] [ID:14] still running Tests.Ui.TC-AC-UI-01 after 15.0s
-[DEBUG]   2026-06-20 12:12:40.101302 [PID:28572] [0] [ID:15] still running Tests.Ui.TC-AC-UI-02 after 15.0s
-[INFO]    2026-06-20 12:12:40.205048 [PID:17296] [2] [ID:12] PASSED Tests.E2E.TC-E2E-02 in 18.1 seconds
-[DEBUG]   2026-06-20 12:12:40.210023 [PID:33136] [1] [ID:16] EXECUTING Tests.Ui.TC-AC-UI-03
-[INFO]    2026-06-20 12:12:41.248488 [PID:4276] [1] [ID:11] PASSED Tests.E2E.TC-E2E-01 in 19.1 seconds
-[DEBUG]   2026-06-20 12:12:41.255071 [PID:30616] [2] [ID:17] EXECUTING Tests.Ui.TC-AC-UI-04
-[INFO]    2026-06-20 12:12:41.417138 [PID:11404] [4] [ID:14] PASSED Tests.Ui.TC-AC-UI-01 in 18.9 seconds
-[DEBUG]   2026-06-20 12:12:41.423324 [PID:6220] [3] [ID:18] EXECUTING Tests.Ui.TC-NAV-UI-01
-[INFO]    2026-06-20 12:12:44.327210 [PID:28572] [0] [ID:15] PASSED Tests.Ui.TC-AC-UI-02 in 19.4 seconds
-[DEBUG]   2026-06-20 12:12:44.334122 [PID:22668] [4] [ID:19] EXECUTING Tests.Ui.TC-TX-UI-01
-[DEBUG]   2026-06-20 12:12:45.229442 [PID:33136] [1] [ID:16] still running Tests.Ui.TC-AC-UI-03 after 5.0s
-[DEBUG]   2026-06-20 12:12:46.273537 [PID:30616] [2] [ID:17] still running Tests.Ui.TC-AC-UI-04 after 5.0s
-[DEBUG]   2026-06-20 12:12:46.442392 [PID:6220] [3] [ID:18] still running Tests.Ui.TC-NAV-UI-01 after 5.0s
-[DEBUG]   2026-06-20 12:12:49.350165 [PID:22668] [4] [ID:19] still running Tests.Ui.TC-TX-UI-01 after 5.0s
-[DEBUG]   2026-06-20 12:12:52.349400 [PID:31508] [0] [ID:10] still running Tests.Data Driven.Data Driven Csv after 30.0s
-[INFO]    2026-06-20 12:12:54.312782 [PID:30616] [2] [ID:17] PASSED Tests.Ui.TC-AC-UI-04 in 13.1 seconds
-[DEBUG]   2026-06-20 12:12:54.319322 [PID:34696] [0] [ID:20] EXECUTING Tests.Ui.TC-TX-UI-02
-[DEBUG]   2026-06-20 12:12:55.261233 [PID:33136] [1] [ID:16] still running Tests.Ui.TC-AC-UI-03 after 15.0s
-[INFO]    2026-06-20 12:12:55.675143 [PID:6220] [3] [ID:18] PASSED Tests.Ui.TC-NAV-UI-01 in 14.3 seconds
-[DEBUG]   2026-06-20 12:12:55.681298 [PID:26108] [1] [ID:21] EXECUTING Tests.Ui.TC-TX-UI-03
-[DEBUG]   2026-06-20 12:12:59.335561 [PID:34696] [0] [ID:20] still running Tests.Ui.TC-TX-UI-02 after 5.0s
-[DEBUG]   2026-06-20 12:12:59.382271 [PID:22668] [4] [ID:19] still running Tests.Ui.TC-TX-UI-01 after 15.0s
-[DEBUG]   2026-06-20 12:13:00.699336 [PID:26108] [1] [ID:21] still running Tests.Ui.TC-TX-UI-03 after 5.0s
-[INFO]    2026-06-20 12:13:01.594216 [PID:33136] [1] [ID:16] PASSED Tests.Ui.TC-AC-UI-03 in 21.4 seconds
-[DEBUG]   2026-06-20 12:13:01.601070 [PID:16356] [2] [ID:22] EXECUTING Tests.Ui.TC-TX-UI-04
-[INFO]    2026-06-20 12:13:02.999581 [PID:22668] [4] [ID:19] PASSED Tests.Ui.TC-TX-UI-01 in 18.7 seconds
-[DEBUG]   2026-06-20 12:13:03.005445 [PID:9804] [3] [ID:23] EXECUTING Tests.Ui.TC-TX-UI-05
-[INFO]    2026-06-20 12:13:06.616018 [PID:31508] [0] [ID:10] PASSED Tests.Data Driven.Data Driven Csv in 44.5 seconds
-[DEBUG]   2026-06-20 12:13:06.658690 [PID:16356] [2] [ID:22] still running Tests.Ui.TC-TX-UI-04 after 5.0s
-[DEBUG]   2026-06-20 12:13:08.021292 [PID:9804] [3] [ID:23] still running Tests.Ui.TC-TX-UI-05 after 5.0s
-[DEBUG]   2026-06-20 12:13:09.381125 [PID:34696] [0] [ID:20] still running Tests.Ui.TC-TX-UI-02 after 15.0s
-[DEBUG]   2026-06-20 12:13:10.743088 [PID:26108] [1] [ID:21] still running Tests.Ui.TC-TX-UI-03 after 15.0s
-[INFO]    2026-06-20 12:13:11.797014 [PID:34696] [0] [ID:20] Execution failed in Tests.Ui.TC-TX-UI-02 with 1 failing test(s)
+[DEBUG]   2026-06-23 23:46:02.824905 [PID:34468] [1] [ID:11] EXECUTING Tests.E2E.TC-E2E-02
+[INFO]    2026-06-23 23:46:02.887933 [PID:30464] [3] [ID:8] Execution failed in Tests.Api.TC-API-09 with 1 failing test(s)
+==============================================================================
+Tests
+==============================================================================
+Tests.Api
+==============================================================================
+Tests.Api.TC-API-09
+==============================================================================
+Loading environment
+Fetching active accounts
+Creating API session
+Getting customer accounts
+TC_API_09 :: Verify fund transfer fails for excessive balance amount  Transferring funds via API
+Validating response
+| FAIL |
+200 == 200
+------------------------------------------------------------------------------
+Tests.Api.TC-API-09                                                   | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests.Api                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  I:\CAPSTONE\reports\pabot_results\8\output.xml
+
+I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+[DEBUG]   2026-06-23 23:46:02.897049 [PID:11744] [2] [ID:12] EXECUTING Tests.Ui.TC-AC-UI-01
+[INFO]    2026-06-23 23:46:02.962513 [PID:32464] [4] [ID:9] PASSED Tests.Api.TC-API-10 in 3.2 seconds
+[INFO]    2026-06-23 23:46:02.964121 [PID:28928] [1] [ID:6] PASSED Tests.Api.TC-API-07 in 3.2 seconds
+[DEBUG]   2026-06-23 23:46:02.974239 [PID:30560] [3] [ID:13] EXECUTING Tests.Ui.TC-AC-UI-02
+[DEBUG]   2026-06-23 23:46:02.975626 [PID:9848] [4] [ID:14] EXECUTING Tests.Ui.TC-AC-UI-03
+[DEBUG]   2026-06-23 23:46:07.636753 [PID:17188] [0] [ID:10] still running Tests.E2E.TC-E2E-01 after 5.0s
+[DEBUG]   2026-06-23 23:46:07.983458 [PID:34468] [1] [ID:11] still running Tests.E2E.TC-E2E-02 after 5.0s
+[DEBUG]   2026-06-23 23:46:08.292865 [PID:11744] [2] [ID:12] still running Tests.Ui.TC-AC-UI-01 after 5.0s
+[DEBUG]   2026-06-23 23:46:08.596239 [PID:30560] [3] [ID:13] still running Tests.Ui.TC-AC-UI-02 after 5.0s
+[DEBUG]   2026-06-23 23:46:08.864854 [PID:9848] [4] [ID:14] still running Tests.Ui.TC-AC-UI-03 after 5.0s
+[DEBUG]   2026-06-23 23:46:17.680275 [PID:17188] [0] [ID:10] still running Tests.E2E.TC-E2E-01 after 15.0s
+[DEBUG]   2026-06-23 23:46:18.026016 [PID:34468] [1] [ID:11] still running Tests.E2E.TC-E2E-02 after 15.0s
+[DEBUG]   2026-06-23 23:46:18.340068 [PID:11744] [2] [ID:12] still running Tests.Ui.TC-AC-UI-01 after 15.0s
+[DEBUG]   2026-06-23 23:46:18.635419 [PID:30560] [3] [ID:13] still running Tests.Ui.TC-AC-UI-02 after 15.0s
+[DEBUG]   2026-06-23 23:46:18.916294 [PID:9848] [4] [ID:14] still running Tests.Ui.TC-AC-UI-03 after 15.0s
+[INFO]    2026-06-23 23:46:22.106569 [PID:17188] [0] [ID:10] PASSED Tests.E2E.TC-E2E-01 in 19.8 seconds
+[DEBUG]   2026-06-23 23:46:22.118540 [PID:32364] [0] [ID:15] EXECUTING Tests.Ui.TC-AC-UI-04
+[INFO]    2026-06-23 23:46:23.478579 [PID:30560] [3] [ID:13] PASSED Tests.Ui.TC-AC-UI-02 in 20.5 seconds
+[DEBUG]   2026-06-23 23:46:23.491260 [PID:26340] [1] [ID:16] EXECUTING Tests.Ui.TC-NAV-UI-01
+[INFO]    2026-06-23 23:46:24.783986 [PID:34468] [1] [ID:11] PASSED Tests.E2E.TC-E2E-02 in 21.9 seconds
+[DEBUG]   2026-06-23 23:46:24.795501 [PID:9052] [2] [ID:17] EXECUTING Tests.Ui.TC-TX-UI-01
+[INFO]    2026-06-23 23:46:26.287601 [PID:11744] [2] [ID:12] PASSED Tests.Ui.TC-AC-UI-01 in 23.4 seconds
+[DEBUG]   2026-06-23 23:46:26.307229 [PID:27116] [3] [ID:18] EXECUTING Tests.Ui.TC-TX-UI-02
+[INFO]    2026-06-23 23:46:26.475941 [PID:9848] [4] [ID:14] PASSED Tests.Ui.TC-AC-UI-03 in 23.5 seconds
+[DEBUG]   2026-06-23 23:46:26.486748 [PID:36580] [4] [ID:19] EXECUTING Tests.Ui.TC-TX-UI-03
+[DEBUG]   2026-06-23 23:46:27.159970 [PID:32364] [0] [ID:15] still running Tests.Ui.TC-AC-UI-04 after 5.0s
+[DEBUG]   2026-06-23 23:46:28.550340 [PID:26340] [1] [ID:16] still running Tests.Ui.TC-NAV-UI-01 after 5.0s
+[DEBUG]   2026-06-23 23:46:29.845729 [PID:9052] [2] [ID:17] still running Tests.Ui.TC-TX-UI-01 after 5.0s
+[DEBUG]   2026-06-23 23:46:31.383010 [PID:27116] [3] [ID:18] still running Tests.Ui.TC-TX-UI-02 after 5.0s
+[DEBUG]   2026-06-23 23:46:31.567008 [PID:36580] [4] [ID:19] still running Tests.Ui.TC-TX-UI-03 after 5.0s
+[DEBUG]   2026-06-23 23:46:37.233658 [PID:32364] [0] [ID:15] still running Tests.Ui.TC-AC-UI-04 after 15.0s
+[INFO]    2026-06-23 23:46:38.266469 [PID:32364] [0] [ID:15] PASSED Tests.Ui.TC-AC-UI-04 in 16.1 seconds
+[DEBUG]   2026-06-23 23:46:38.280061 [PID:21384] [0] [ID:20] EXECUTING Tests.Ui.TC-TX-UI-04
+[DEBUG]   2026-06-23 23:46:38.628249 [PID:26340] [1] [ID:16] still running Tests.Ui.TC-NAV-UI-01 after 15.0s
+[DEBUG]   2026-06-23 23:46:39.912844 [PID:9052] [2] [ID:17] still running Tests.Ui.TC-TX-UI-01 after 15.0s
+[INFO]    2026-06-23 23:46:40.365311 [PID:26340] [1] [ID:16] PASSED Tests.Ui.TC-NAV-UI-01 in 16.9 seconds
+[DEBUG]   2026-06-23 23:46:40.375803 [PID:13288] [1] [ID:21] EXECUTING Tests.Ui.TC-TX-UI-05
+[DEBUG]   2026-06-23 23:46:41.437214 [PID:27116] [3] [ID:18] still running Tests.Ui.TC-TX-UI-02 after 15.0s
+[DEBUG]   2026-06-23 23:46:41.680139 [PID:36580] [4] [ID:19] still running Tests.Ui.TC-TX-UI-03 after 15.0s
+[DEBUG]   2026-06-23 23:46:43.314792 [PID:21384] [0] [ID:20] still running Tests.Ui.TC-TX-UI-04 after 5.0s
+[INFO]    2026-06-23 23:46:45.165901 [PID:9052] [2] [ID:17] PASSED Tests.Ui.TC-TX-UI-01 in 20.4 seconds
+[DEBUG]   2026-06-23 23:46:45.423683 [PID:13288] [1] [ID:21] still running Tests.Ui.TC-TX-UI-05 after 5.0s
+[INFO]    2026-06-23 23:46:45.678505 [PID:27116] [3] [ID:18] Execution failed in Tests.Ui.TC-TX-UI-02 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -161,15 +156,15 @@ Tests.Ui                                                              | FAIL |
 Tests                                                                 | FAIL |
 1 test, 0 passed, 1 failed
 ==============================================================================
-Output:  I:\CAPSTONE\reports\pabot_results\20\output.xml
+Output:  I:\CAPSTONE\reports\pabot_results\18\output.xml
 
 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-[INFO]    2026-06-20 12:13:12.800337 [PID:26108] [1] [ID:21] PASSED Tests.Ui.TC-TX-UI-03 in 17.1 seconds
-[DEBUG]   2026-06-20 12:13:16.708067 [PID:16356] [2] [ID:22] still running Tests.Ui.TC-TX-UI-04 after 15.0s
-[INFO]    2026-06-20 12:13:17.815851 [PID:16356] [2] [ID:22] PASSED Tests.Ui.TC-TX-UI-04 in 16.2 seconds
-[DEBUG]   2026-06-20 12:13:18.111718 [PID:9804] [3] [ID:23] still running Tests.Ui.TC-TX-UI-05 after 15.0s
-[INFO]    2026-06-20 12:13:20.131133 [PID:9804] [3] [ID:23] Execution failed in Tests.Ui.TC-TX-UI-05 with 1 failing test(s)
+[INFO]    2026-06-23 23:46:46.836719 [PID:36580] [4] [ID:19] PASSED Tests.Ui.TC-TX-UI-03 in 20.4 seconds
+[DEBUG]   2026-06-23 23:46:53.362013 [PID:21384] [0] [ID:20] still running Tests.Ui.TC-TX-UI-04 after 15.0s
+[DEBUG]   2026-06-23 23:46:55.471788 [PID:13288] [1] [ID:21] still running Tests.Ui.TC-TX-UI-05 after 15.0s
+[INFO]    2026-06-23 23:46:58.106237 [PID:21384] [0] [ID:20] PASSED Tests.Ui.TC-TX-UI-04 in 19.8 seconds
+[INFO]    2026-06-23 23:47:01.345020 [PID:13288] [1] [ID:21] Execution failed in Tests.Ui.TC-TX-UI-05 with 1 failing test(s)
 ==============================================================================
 Tests
 ==============================================================================
@@ -201,11 +196,11 @@ Tests.Ui                                                              | FAIL |
 Tests                                                                 | FAIL |
 1 test, 0 passed, 1 failed
 ==============================================================================
-Output:  I:\CAPSTONE\reports\pabot_results\23\output.xml
+Output:  I:\CAPSTONE\reports\pabot_results\21\output.xml
 
 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
   warnings.warn(
-[INFO]    28 tests, 24 passed, 4 failed, 0 skipped.
+[INFO]    22 tests, 18 passed, 4 failed, 0 skipped.
 [INFO]    ===================================================
 [INFO]    Output:  I:\CAPSTONE\reports\output.xml
 [INFO]    Log:     I:\CAPSTONE\reports\log.html
@@ -214,6 +209,6 @@ I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequ
 [DEBUG]   Stopping PabotLib process
 [INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
 [DEBUG]   PabotLib process stopped
-[INFO]    Total testing: 4 minutes 45.0 seconds
-[INFO]    Elapsed time:  1 minute 4.36 seconds
+[INFO]    Total testing: 4 minutes 38.20 seconds
+[INFO]    Elapsed time:  1 minute 7.52 seconds
 [DEBUG]   Logs flushed successfully.

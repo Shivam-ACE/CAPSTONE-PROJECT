@@ -1,11 +1,11 @@
---suite Tests.Performance.API response time
---variable CALLER_ID:4167e2552b60411181b223fd343c5f05
+--suite Tests.Ui.TC-AC-UI-02
+--variable CALLER_ID:2eaffff6b6d24af7af5654f67c1d4e7c
 --variable PABOTLIBURI:127.0.0.1:8270
 --variable PABOTEXECUTIONPOOLID:3
 --variable PABOTISLASTEXECUTIONINPOOL:0
 --variable PABOTNUMBEROFPROCESSES:5
 --variable PABOTQUEUEINDEX:13
---variable PABOTLASTLEVEL:Tests.Performance
+--variable PABOTLASTLEVEL:Tests.Ui.TC-AC-UI-02
 --outputdir reports\pabot_results\13
 --listener allure_robotframework
 --output output.xml

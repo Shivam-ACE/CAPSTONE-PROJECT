@@ -1,36 +1,30 @@
-2026-06-20 12:12:17.354302 ==============================================================================
-2026-06-20 12:12:17.388732 Tests
-2026-06-20 12:12:17.388768 ==============================================================================
-2026-06-20 12:12:17.388793 Tests.Api
-2026-06-20 12:12:17.390176 ==============================================================================
-2026-06-20 12:12:17.822692 Tests.Api.TC-API-03
-2026-06-20 12:12:17.837514 ==============================================================================
-2026-06-20 12:12:17.837542 Loading environment
-2026-06-20 12:12:17.839625 Fetching active accounts
-2026-06-20 12:12:17.850530 Creating API session
-2026-06-20 12:12:17.851466 Getting customer accounts
-2026-06-20 12:12:18.478949 Creating new account
-2026-06-20 12:12:18.478949 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 12:12:18.534344   warnings.warn(
-2026-06-20 12:12:19.021991 Getting customer accounts
-2026-06-20 12:12:19.021991 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 12:12:19.063481   warnings.warn(
-2026-06-20 12:12:19.425023 TC_API_03 :: Verify newly created account exists in customer accou... Getting customer accounts
-2026-06-20 12:12:19.425023 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 12:12:19.454582   warnings.warn(
-2026-06-20 12:12:19.845976 Checking response status
-2026-06-20 12:12:19.845976 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 12:12:19.985571 Validating response
-2026-06-20 12:12:19.985571   warnings.warn(
-2026-06-20 12:12:20.016683 | PASS |
-2026-06-20 12:12:20.016882 ------------------------------------------------------------------------------
-2026-06-20 12:12:20.017300 Tests.Api.TC-API-03                                                   | PASS |
-2026-06-20 12:12:20.017353 1 test, 1 passed, 0 failed
-2026-06-20 12:12:20.017368 ==============================================================================
-2026-06-20 12:12:20.017378 Tests.Api                                                             | PASS |
-2026-06-20 12:12:20.017386 1 test, 1 passed, 0 failed
-2026-06-20 12:12:20.017393 ==============================================================================
-2026-06-20 12:12:20.017400 Tests                                                                 | PASS |
-2026-06-20 12:12:20.017407 1 test, 1 passed, 0 failed
-2026-06-20 12:12:20.017414 ==============================================================================
-2026-06-20 12:12:20.017421 Output:  I:\CAPSTONE\reports\pabot_results\2\output.xml
+2026-06-23 23:45:56.766846 ==============================================================================
+2026-06-23 23:45:56.774560 Tests
+2026-06-23 23:45:56.774688 ==============================================================================
+2026-06-23 23:45:56.774766 Tests.Api
+2026-06-23 23:45:56.777759 ==============================================================================
+2026-06-23 23:45:57.638976 Tests.Api.TC-API-03
+2026-06-23 23:45:57.650424 ==============================================================================
+2026-06-23 23:45:57.650513 Loading environment
+2026-06-23 23:45:57.654011 Fetching active accounts
+2026-06-23 23:45:57.673026 Creating API session
+2026-06-23 23:45:57.674880 Getting customer accounts
+2026-06-23 23:45:58.608393 TC_API_03 :: Verify newly created account exists in customer accou... Getting customer accounts
+2026-06-23 23:45:58.608393 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-23 23:45:58.649278   warnings.warn(
+2026-06-23 23:45:59.074504 Checking response status
+2026-06-23 23:45:59.074504 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-23 23:45:59.109367 Validating response
+2026-06-23 23:45:59.109367   warnings.warn(
+2026-06-23 23:45:59.115256 | PASS |
+2026-06-23 23:45:59.120784 ------------------------------------------------------------------------------
+2026-06-23 23:45:59.120865 Tests.Api.TC-API-03                                                   | PASS |
+2026-06-23 23:45:59.149593 1 test, 1 passed, 0 failed
+2026-06-23 23:45:59.149642 ==============================================================================
+2026-06-23 23:45:59.149672 Tests.Api                                                             | PASS |
+2026-06-23 23:45:59.149698 1 test, 1 passed, 0 failed
+2026-06-23 23:45:59.149726 ==============================================================================
+2026-06-23 23:45:59.149762 Tests                                                                 | PASS |
+2026-06-23 23:45:59.149799 1 test, 1 passed, 0 failed
+2026-06-23 23:45:59.149834 ==============================================================================
+2026-06-23 23:45:59.149864 Output:  I:\CAPSTONE\reports\pabot_results\2\output.xml

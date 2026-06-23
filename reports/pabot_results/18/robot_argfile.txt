@@ -1,11 +1,11 @@
---suite Tests.Ui.TC-NAV-UI-01
---variable CALLER_ID:aa36f9da7edf4155ad6bf5944cc3b519
+--suite Tests.Ui.TC-TX-UI-02
+--variable CALLER_ID:6e80881d08eb4a3589adfc1626458a57
 --variable PABOTLIBURI:127.0.0.1:8270
 --variable PABOTEXECUTIONPOOLID:3
 --variable PABOTISLASTEXECUTIONINPOOL:0
 --variable PABOTNUMBEROFPROCESSES:5
 --variable PABOTQUEUEINDEX:18
---variable PABOTLASTLEVEL:Tests.Ui.TC-NAV-UI-01
+--variable PABOTLASTLEVEL:Tests.Ui.TC-TX-UI-02
 --outputdir reports\pabot_results\18
 --listener allure_robotframework
 --output output.xml

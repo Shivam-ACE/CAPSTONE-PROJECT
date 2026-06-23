@@ -1,34 +1,33 @@
-2026-06-20 12:12:54.751915 ==============================================================================
-2026-06-20 12:12:54.802942 Tests
-2026-06-20 12:12:54.802991 ==============================================================================
-2026-06-20 12:12:54.803018 Tests.Ui
-2026-06-20 12:12:54.804129 ==============================================================================
-2026-06-20 12:12:55.105434 Tests.Ui.TC-TX-UI-02
-2026-06-20 12:12:55.162648 ==============================================================================
-2026-06-20 12:12:55.162685 Loading environment
-2026-06-20 12:12:55.164964 Fetching active accounts
-2026-06-20 12:12:55.172738 Creating API session
-2026-06-20 12:12:55.173302 Getting customer accounts
-2026-06-20 12:12:55.904682 TC-TX-UI-02 :: Verify Zero amount funds transfer rejection            Opening application
-2026-06-20 12:12:55.904682 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
-2026-06-20 12:12:55.922800   warnings.warn(
-2026-06-20 12:13:00.335821 Logging in
-2026-06-20 12:13:04.758096 Entering Zero amount
-2026-06-20 12:13:04.894675 Selecting source account
-2026-06-20 12:13:04.973069 Selecting destination account
-2026-06-20 12:13:05.050950 Transferring funds with zero amount
-2026-06-20 12:13:09.153410 Validating response
-2026-06-20 12:13:09.304597 Closing browser
-2026-06-20 12:13:11.493186 | FAIL |
-2026-06-20 12:13:11.497664 Page should not have contained text 'Transfer Complete!'.
-2026-06-20 12:13:11.497702 ------------------------------------------------------------------------------
-2026-06-20 12:13:11.497729 Tests.Ui.TC-TX-UI-02                                                  | FAIL |
-2026-06-20 12:13:11.501048 1 test, 0 passed, 1 failed
-2026-06-20 12:13:11.501139 ==============================================================================
-2026-06-20 12:13:11.501167 Tests.Ui                                                              | FAIL |
-2026-06-20 12:13:11.501765 1 test, 0 passed, 1 failed
-2026-06-20 12:13:11.501864 ==============================================================================
-2026-06-20 12:13:11.501892 Tests                                                                 | FAIL |
-2026-06-20 12:13:11.502426 1 test, 0 passed, 1 failed
-2026-06-20 12:13:11.502539 ==============================================================================
-2026-06-20 12:13:11.502564 Output:  I:\CAPSTONE\reports\pabot_results\20\output.xml
+2026-06-23 23:46:39.280950 ==============================================================================
+2026-06-23 23:46:39.317996 Tests
+2026-06-23 23:46:39.318123 ==============================================================================
+2026-06-23 23:46:39.318201 Tests.Ui
+2026-06-23 23:46:39.320397 ==============================================================================
+2026-06-23 23:46:40.117036 Tests.Ui.TC-TX-UI-04
+2026-06-23 23:46:40.134080 ==============================================================================
+2026-06-23 23:46:40.134154 Loading environment
+2026-06-23 23:46:40.138545 Fetching active accounts
+2026-06-23 23:46:40.155538 Creating API session
+2026-06-23 23:46:40.157043 Getting customer accounts
+2026-06-23 23:46:40.602858 TC-TX-UI-04 :: Verify alphabetic amount funds transfer rejection      Opening application
+2026-06-23 23:46:40.602858 I:\CAPSTONE\.venv\Lib\site-packages\urllib3\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'parabank.parasoft.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+2026-06-23 23:46:40.640819   warnings.warn(
+2026-06-23 23:46:45.570872 Logging in
+2026-06-23 23:46:50.617222 Entering amount
+2026-06-23 23:46:50.788848 Selecting source account
+2026-06-23 23:46:50.930303 Selecting destination account
+2026-06-23 23:46:51.070772 Transferring funds with alphabetic amount
+2026-06-23 23:46:55.204448 Validating response
+2026-06-23 23:46:55.212234 Closing browser
+2026-06-23 23:46:57.673739 | PASS |
+2026-06-23 23:46:57.679824 ------------------------------------------------------------------------------
+2026-06-23 23:46:57.679877 Tests.Ui.TC-TX-UI-04                                                  | PASS |
+2026-06-23 23:46:57.686820 1 test, 1 passed, 0 failed
+2026-06-23 23:46:57.686889 ==============================================================================
+2026-06-23 23:46:57.686931 Tests.Ui                                                              | PASS |
+2026-06-23 23:46:57.688050 1 test, 1 passed, 0 failed
+2026-06-23 23:46:57.688096 ==============================================================================
+2026-06-23 23:46:57.688131 Tests                                                                 | PASS |
+2026-06-23 23:46:57.688830 1 test, 1 passed, 0 failed
+2026-06-23 23:46:57.689031 ==============================================================================
+2026-06-23 23:46:57.689069 Output:  I:\CAPSTONE\reports\pabot_results\20\output.xml

@@ -9,12 +9,10 @@ Loading environment
 Fetching active accounts
 Creating API session
 Getting customer accounts
-Creating new account
-Getting customer accounts
 TC_API_02 :: Verify GET account details API                           Getting account details
 Checking response status
 Validating response
-{'id': 13566, 'customerId': 12212, 'type': 'CHECKING', 'balance': 100.0}
+{'id': 12456, 'customerId': 12212, 'type': 'CHECKING', 'balance': 101000679.45}
 | PASS |
 ------------------------------------------------------------------------------
 Tests.Api.TC-API-02                                                   | PASS |

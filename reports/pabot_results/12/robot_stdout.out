@@ -1,32 +1,25 @@
 ==============================================================================
 Tests
 ==============================================================================
-Tests.E2E
+Tests.Ui
 ==============================================================================
-Tests.E2E.TC-E2E-02
+Tests.Ui.TC-AC-UI-01
 ==============================================================================
 Loading environment
 Fetching active accounts
 Creating API session
 Getting customer accounts
-TC-E2E-02 :: Verify E2E funds transfer and API transaction history... Opening application
+TC-AC-UI-01 :: Verify creating savings account                        Opening application
 Logging in
-Entering amount
-Selecting source account
-Selecting destination account
-Transferring funds
+Opening account
 Validating response
-Getting transactions
-Getting account transactions
-Checking response status
-Validating transaction history contains entry of transfer amount: 120
 Closing browser
 | PASS |
 ------------------------------------------------------------------------------
-Tests.E2E.TC-E2E-02                                                   | PASS |
+Tests.Ui.TC-AC-UI-01                                                  | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
-Tests.E2E                                                             | PASS |
+Tests.Ui                                                              | PASS |
 1 test, 1 passed, 0 failed
 ==============================================================================
 Tests                                                                 | PASS |
